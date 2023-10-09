@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3.1",
+  "revision": "0.3.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -7324,6 +7324,11 @@
         }
       },
       "Model§Vorax": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Vorax—Vorax power blade arrays"
+          ]
+        },
         "keywords": {
           "Keywords": [
             "Taghmata Omnissiah"
@@ -14044,6 +14049,9 @@
         "keywords": {
           "Keywords": [
             "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
           ]
         },
         "stats": {
@@ -14231,6 +14239,9 @@
         "keywords": {
           "Keywords": [
             "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
           ]
         },
         "stats": {
