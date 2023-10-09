@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3",
+  "revision": "0.3.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -14045,6 +14045,11 @@
           "Keywords": [
             "Taghmata Omnissiah"
           ]
+        },
+        "stats": {
+          "weaponName": {
+            "value": "Plasma pistol"
+          }
         }
       },
       "Weapon§Scyllax—Plasma gun": {
