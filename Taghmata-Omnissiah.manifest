@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3.4",
+  "revision": "0.3.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -12640,7 +12640,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack against a non-**Vehicle** unit, re-roll Wound rolls of 1."
+        "text": "**WHEN**: Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack against a non-**Vehicle** unit, re-roll Hit rolls and Wound rolls of 1."
       },
       "Stratagem§Defence Sentinel Intercept": {
         "keywords": {
