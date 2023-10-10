@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3.3",
+  "revision": "0.3.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -12868,7 +12868,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah Character** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Your **Taghmata Omnissiah Character** unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.\n\n**RESTRICTIONS**: Until the end of the phase, change the Attacks characteristic of weapons with the **[TORRENT]** ability equipped by models in your unit to D3 and each time a model in your unit makes a ranged attack, an unmodified Hit roll of 5+ is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers."
+        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah Character** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Your **Taghmata Omnissiah Character** unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.\n\n**RESTRICTIONS**: Each time a model in your unit makes a ranged attack, an unmodified Hit roll of 5+ is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers."
       },
       "Stratagem§Secrets of Annihilation": {
         "keywords": {
