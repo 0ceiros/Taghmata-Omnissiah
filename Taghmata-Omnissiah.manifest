@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3.2",
+  "revision": "0.3.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9717,9 +9717,6 @@
       "Ranged Weapon§Moirax—Conversion beam cannon": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Heavy"
-            },
             "Ability§Blind",
             "Ability§Conversion",
             {
@@ -9745,7 +9742,7 @@
             "value": -2
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
             "value": 3
