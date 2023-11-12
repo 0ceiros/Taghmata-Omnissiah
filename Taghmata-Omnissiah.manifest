@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.1",
+  "revision": "0.4.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -80,6 +80,14 @@
           ]
         },
         "text": "You can use this ability at the end of your Movement phase targeting one enemy unit within 3\" of and visible to this model. That unit suffers 3D6 mortal wounds, but for each roll of 1-3, this model’s unit also suffers D6 mortal wounds."
+      },
+      "Ability§Battlefield Analysis": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah unit within 6\" of this model. Until the start of your next Command phase, weapons equipped by models in that unit have the [IGNORES COVER] ability."
       },
       "Ability§Battlesmith": {
         "keywords": {
@@ -419,6 +427,14 @@
           ]
         },
         "text": "Each time a melee attack is allocated to a model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
+      },
+      "Ability§Master of Destruction": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "While this model is leading a unit, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Ability§Masters of Technology": {
         "keywords": {
@@ -2494,6 +2510,176 @@
           },
           "W": {
             "value": 5
+          }
+        }
+      },
+      "Character§Calleb Decima Invictus": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Masters of Technology",
+            "Ability§Battlesmith",
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n"
+            },
+            "Ability§Pride of Place",
+            "Ranged Weapon§Calleb Decima Invictus—Master-crafted bolt pistol",
+            "Ranged Weapon§Calleb Decima Invictus—Curse of the Omnissiah",
+            "Melee Weapon§Calleb Decima Invictus—Omnissian axe",
+            "Melee Weapon§Calleb Decima Invictus—Machinator array",
+            "Ability§Hatred",
+            "Ability§Master of Destruction",
+            "Ability§Battlefield Analysis"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Character Calleb Decima Invictus"
+          ],
+          "Source": [
+            "Taghmata Omnissiah"
+          ],
+          "Faction": [
+            "Taghmata Omnissiah"
+          ],
+          "Keywords": [
+            "Archmagos",
+            "Calleb Decima Invictus",
+            "Character",
+            "Epic Hero",
+            "Loyalist",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Master Cybertheurgist"
+          ]
+        },
+        "stats": {
+          "Cybertheurgy — Master": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "Artificia Cybernetica": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia cybernetica)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Exortus (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Machina": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia machina)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Integro (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Revivesco (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Incursus": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera incursus)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Custodia (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Maledictio (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera lacyraemarta)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Inmortui (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Celero (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Reductor": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia reductor)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Fulmen (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Obliteratio (cybertheurgic rite, master)"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Artificia Cybernetica",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 5
+          },
+          "M": {
+            "value": 6
+          },
+          "maxQty": {
+            "value": 1
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 250
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 6
           }
         }
       },
@@ -5295,6 +5481,70 @@
           },
           "WS": {
             "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Calleb Decima Invictus—Machinator array": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Extra Attacks"
+            },
+            {
+              "item": "Ability§Twin-linked"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Machinator array"
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Calleb Decima Invictus—Omnissian axe": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Omnissian axe"
+          },
+          "WS": {
+            "value": 3
           }
         }
       },
@@ -9167,6 +9417,98 @@
           },
           "weaponName": {
             "value": "Volkite charger"
+          }
+        }
+      },
+      "Ranged Weapon§Calleb Decima Invictus—Curse of the Omnissiah": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§One Shot"
+            },
+            {
+              "item": "Ability§Hazardous"
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Devastating Wounds"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "2D6"
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 3
+          },
+          "weaponName": {
+            "value": "Curse of the Omnissiah"
+          }
+        }
+      },
+      "Ranged Weapon§Calleb Decima Invictus—Master-crafted bolt pistol": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Pistol"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          },
+          "weaponName": {
+            "value": "Master-crafted bolt pistol"
           }
         }
       },
