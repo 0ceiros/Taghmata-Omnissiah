@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.3.6",
+  "revision": "0.4.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -210,6 +210,14 @@
         },
         "text": "Ranged weapons equipped by models in this unit have the [IGNORES COVER] ability"
       },
+      "Ability§Djinn-skein": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah unit within 6\" of this model. Until the start of your next Command phase, each time a model in that unit makes a ranged attack, add 1 to the Hit roll."
+      },
       "Ability§Enginseer Techno-arcana": {
         "keywords": {
           "Keywords": [
@@ -303,7 +311,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "This unit can never be included in a Chaos army. An army may not include more than one Arcuitor Magisterium."
+        "text": "An army may not include more than one Arcuitor Magisterium."
       },
       "Ability§Flare Shielding": {
         "keywords": {
@@ -312,6 +320,14 @@
           ]
         },
         "text": "Each time a ranged attack is made against this unit, subtract 1 from the Strength characteristic of that attack."
+      },
+      "Ability§Forbidden Protocols": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Once per battle round, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
       },
       "Ability§Greuso Protocol": {
         "keywords": {
@@ -412,6 +428,14 @@
         },
         "text": "Gain Part of the Whole, Battlesmith and Cybertheurgy Taghmata Omnissiah army abilities."
       },
+      "Ability§Monstrous Form": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "While this model is within 3\" of one or more friendly Adeptus Astartes Automata units, this model has the Lone Operative ability."
+      },
       "Ability§Move Through Cover": {
         "keywords": {
           "Keywords": [
@@ -461,7 +485,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "An army may not include more than one Archmagos Prime."
+        "text": "An army may not include more than one Archmagos."
       },
       "Ability§Psalm-code Chant": {
         "keywords": {
@@ -519,6 +543,14 @@
         },
         "text": "Just after this unit is destroyed, roll a D6. On 5+ add a new unit to your army identical to this one, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining."
       },
+      "Ability§Rites of the Beast": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah Automata unit within 6\" of this model. Until the start of your next Command phase, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+      },
       "Ability§Savants of Firepower": {
         "keywords": {
           "Keywords": [
@@ -558,6 +590,14 @@
           ]
         },
         "text": "In your Shooting phase, just after selecting a target for this model’s sonic destructor, draw a line between the closest point of this model’s hull and that of the closest model in the target unit extending the line up to 72”, then roll one D6 for every unit that is within 3\" of the line and visible to this model excluding this model’s unit and the target unit: on a 3+, the unit being rolled for is struck by a sonic wave. After this model has finished making its attacks against the target unit this phase, make attacks against every unit struck by a sonic wave using this model’s sonic destructor. Those attacks do not trigger this ability."
+      },
+      "Ability§Stataraga High Techno-arcana": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Add 1 to Advance and Charge rolls made for friendly Taghmata Omnissiah Automata and Walker units within 12” of this model."
       },
       "Ability§Subterranean Assault": {
         "keywords": {
@@ -1547,6 +1587,350 @@
           }
         }
       },
+      "Character§Archmagos Anacharis Scoria": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            "Ability§Masters of Technology",
+            "Ability§Battlesmith",
+            "Ability§Pride of Place",
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ability§Monstrous Form",
+            "Ability§Rites of the Beast",
+            "Ability§Forbidden Protocols",
+            "Ranged Weapon§Archmagos Anacharis Scoria—Archaeotech pistol",
+            "Ranged Weapon§Archmagos Anacharis Scoria—Archaeotech pistol",
+            "Ranged Weapon§Archmagos Anacharis Scoria—Photon thruster",
+            "Melee Weapon§Archmagos Anacharis Scoria—Vodian Sceptre",
+            "Melee Weapon§Archmagos Anacharis Scoria—Machinator array"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Character Archmagos Anacharis Scoria"
+          ],
+          "Source": [
+            "Taghmata Omnissiah"
+          ],
+          "Faction": [
+            "Taghmata Omnissiah"
+          ],
+          "Keywords": [
+            "Archmagos",
+            "Archmagos Anacharis Scoria",
+            "Character",
+            "Epic Hero",
+            "Traitor",
+            "Grenades",
+            "Imperium",
+            "Vehicle",
+            "Master Cybertheurgist"
+          ]
+        },
+        "stats": {
+          "Cybertheurgy — Master": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "Artificia Cybernetica": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia cybernetica)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Exortus (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Machina": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia machina)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Integro (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Revivesco (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Incursus": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera incursus)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Custodia (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Maledictio (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera lacyraemarta)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Inmortui (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Celero (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Reductor": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia reductor)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Fulmen (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Obliteratio (cybertheurgic rite, master)"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Artificia Cybernetica",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 5
+          },
+          "M": {
+            "value": 9
+          },
+          "maxQty": {
+            "value": 1
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 365
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 12
+          }
+        }
+      },
+      "Character§Archmagos Draykavac": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Masters of Technology",
+            "Ability§Battlesmith",
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n"
+            },
+            "Ability§Pride of Place",
+            "Ranged Weapon§Archmagos Draykavac—Graviton gun",
+            "Melee Weapon§Archmagos Draykavac—Liquifractor",
+            "Melee Weapon§Archmagos Draykavac—Machinator array",
+            "Melee Weapon§Archmagos Draykavac—Paragon blade",
+            "Ability§Stataraga High Techno-arcana",
+            "Ability§Djinn-skein"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Character Archmagos Draykavac"
+          ],
+          "Source": [
+            "Taghmata Omnissiah"
+          ],
+          "Faction": [
+            "Taghmata Omnissiah"
+          ],
+          "Keywords": [
+            "Archmagos",
+            "Archmagos Draykavac",
+            "Character",
+            "Epic Hero",
+            "Traitor",
+            "Grenades",
+            "Imperium",
+            "Vehicle",
+            "Master Cybertheurgist"
+          ]
+        },
+        "stats": {
+          "Cybertheurgy — Master": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "Artificia Cybernetica": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia cybernetica)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Exortus (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Machina": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia machina)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Integro (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Revivesco (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Incursus": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera incursus)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Custodia (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Maledictio (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera lacyraemarta)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Inmortui (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Celero (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Reductor": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia reductor)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Fulmen (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Obliteratio (cybertheurgic rite, master)"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Artificia Cybernetica",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 5
+          },
+          "M": {
+            "value": 6
+          },
+          "maxQty": {
+            "value": 1
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 240
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 8
+          },
+          "W": {
+            "value": 10
+          }
+        }
+      },
       "Character§Archmagos Prime": {
         "assets": {
           "traits": [
@@ -1580,6 +1964,7 @@
             "Taghmata Omnissiah"
           ],
           "Keywords": [
+            "Archmagos",
             "Archmagos Prime",
             "Character",
             "Grenades",
@@ -2028,7 +2413,8 @@
             "Character",
             "Grenades",
             "Imperium",
-            "Infantry"
+            "Infantry",
+            "Loyalist"
           ]
         },
         "stats": {
@@ -4221,6 +4607,224 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          }
+        }
+      },
+      "Melee Weapon§Archmagos Anacharis Scoria—Machinator array": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Extra Attacks"
+            },
+            {
+              "item": "Ability§Twin-linked"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Machinator array"
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Archmagos Anacharis Scoria—Vodian Sceptre": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Devastating Wounds"
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "weaponName": {
+            "value": "Vodian Sceptre"
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Archmagos Draykavac—Liquifractor": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Devastating Wounds"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "statType": "term",
+            "value": "2D6"
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Liquifractor"
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Archmagos Draykavac—Machinator array": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Extra Attacks"
+            },
+            {
+              "item": "Ability§Twin-linked"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Machinator array"
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Archmagos Draykavac—Paragon blade": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Devastating Wounds"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Paragon blade"
+          },
+          "WS": {
+            "value": 2
           }
         }
       },
@@ -7411,6 +8015,137 @@
           },
           "W": {
             "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Archmagos Anacharis Scoria—Archaeotech pistol": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Devastating Wounds"
+            },
+            {
+              "item": "Ability§Pistol"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Archaeotech pistol"
+          }
+        }
+      },
+      "Ranged Weapon§Archmagos Anacharis Scoria—Photon thruster": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Lethal Hits"
+            },
+            {
+              "item": "Ability§Blind"
+            },
+            {
+              "item": "Ability§Hazardous"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          },
+          "weaponName": {
+            "value": "Photon thruster"
+          }
+        }
+      },
+      "Ranged Weapon§Archmagos Draykavac—Graviton gun": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast"
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 3
+          },
+          "weaponName": {
+            "value": "Graviton gun"
           }
         }
       },
