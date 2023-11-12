@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.3",
+  "revision": "0.4.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -829,7 +829,9 @@
           "items": [
             "Model§Domitar",
             "Character§Archmagos Prime",
-            "Character§Magos Dominus"
+            "Character§Magos Dominus",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
