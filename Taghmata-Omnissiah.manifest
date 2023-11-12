@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.2",
+  "revision": "0.4.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -741,7 +741,9 @@
           "items": [
             "Model§Castellax",
             "Character§Archmagos Prime",
-            "Character§Magos Dominus"
+            "Character§Magos Dominus",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
@@ -908,7 +910,9 @@
             "Model§Scyllax",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Tech-Priest Auxilia Covenant"
+            "Character§Tech-Priest Auxilia Covenant",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
@@ -1029,7 +1033,9 @@
             "Model§Servo-automata",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Tech-Priest Auxilia Covenant"
+            "Character§Tech-Priest Auxilia Covenant",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
@@ -1400,7 +1406,9 @@
           "items": [
             "Model§Vorax",
             "Character§Archmagos Prime",
-            "Character§Magos Dominus"
+            "Character§Magos Dominus",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
@@ -3983,7 +3991,9 @@
           "items": [
             "Model§Myrmidon Destructor",
             "Character§Archmagos Prime",
-            "Character§Magos Dominus"
+            "Character§Magos Dominus",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
@@ -4270,7 +4280,9 @@
           "items": [
             "Model§Myrmidon Secutor",
             "Character§Archmagos Prime",
-            "Character§Magos Dominus"
+            "Character§Magos Dominus",
+            "Character§Archmagos Draykavac",
+            "Character§Calleb Decima Invictus"
           ]
         },
         "assets": {
