@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.4",
+  "revision": "0.4.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -450,7 +450,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "While this model is within 3\" of one or more friendly Adeptus Astartes Automata units, this model has the Lone Operative ability."
+        "text": "While this model is within 3\" of one or more friendly Taghmata Omnissiah Automata units, this model has the Lone Operative ability."
       },
       "Ability§Move Through Cover": {
         "keywords": {
@@ -742,7 +742,7 @@
             "Model§Castellax",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -830,7 +830,7 @@
             "Model§Domitar",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -913,7 +913,7 @@
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
             "Character§Tech-Priest Auxilia Covenant",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -1036,7 +1036,7 @@
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
             "Character§Tech-Priest Auxilia Covenant",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -1409,7 +1409,7 @@
             "Model§Vorax",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -1613,7 +1613,7 @@
           }
         }
       },
-      "Character§Archmagos Anacharis Scoria": {
+      "Character§Anacharis Scoria": {
         "assets": {
           "traits": [
             {
@@ -1660,11 +1660,11 @@
             "Archmagos Anacharis Scoria",
             "Character",
             "Epic Hero",
-            "Traitor",
             "Grenades",
             "Imperium",
-            "Vehicle",
-            "Master Cybertheurgist"
+            "Master Cybertheurgist",
+            "Mounted",
+            "Traitor"
           ]
         },
         "stats": {
@@ -1775,7 +1775,7 @@
             "value": 3
           },
           "Points": {
-            "value": 365
+            "value": 385
           },
           "Sv": {
             "value": 2
@@ -1785,175 +1785,6 @@
           },
           "W": {
             "value": 12
-          }
-        }
-      },
-      "Character§Archmagos Draykavac": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Masters of Technology",
-            "Ability§Battlesmith",
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n"
-            },
-            "Ability§Pride of Place",
-            "Ranged Weapon§Archmagos Draykavac—Graviton gun",
-            "Melee Weapon§Archmagos Draykavac—Liquifractor",
-            "Melee Weapon§Archmagos Draykavac—Machinator array",
-            "Melee Weapon§Archmagos Draykavac—Paragon blade",
-            "Ability§Stataraga High Techno-arcana",
-            "Ability§Djinn-skein"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Character Archmagos Draykavac"
-          ],
-          "Source": [
-            "Taghmata Omnissiah"
-          ],
-          "Faction": [
-            "Taghmata Omnissiah"
-          ],
-          "Keywords": [
-            "Archmagos",
-            "Archmagos Draykavac",
-            "Character",
-            "Epic Hero",
-            "Traitor",
-            "Grenades",
-            "Imperium",
-            "Vehicle",
-            "Master Cybertheurgist"
-          ]
-        },
-        "stats": {
-          "Cybertheurgy — Master": {
-            "dynamic": true,
-            "group": "Loadout",
-            "ranks": {
-              "Artificia Cybernetica": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ability§Cybertheurgy (artificia cybernetica)"
-                  },
-                  {
-                    "trait": "Ability§Cybernetica Exortus (cybertheurgic rite)"
-                  },
-                  {
-                    "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
-                  },
-                  {
-                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
-                  }
-                ]
-              },
-              "Artificia Machina": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ability§Cybertheurgy (artificia machina)"
-                  },
-                  {
-                    "trait": "Ability§Animatus Integro (cybertheurgic rite)"
-                  },
-                  {
-                    "trait": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
-                  },
-                  {
-                    "trait": "Ability§Animatus Revivesco (cybertheurgic rite, master)"
-                  }
-                ]
-              },
-              "Ephemera Incursus": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ability§Cybertheurgy (ephemera incursus)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Custodia (cybertheurgic rite)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Maledictio (cybertheurgic rite, master)"
-                  }
-                ]
-              },
-              "Ephemera Lacyraemarta": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ability§Cybertheurgy (ephemera lacyraemarta)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Inmortui (cybertheurgic rite)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
-                  },
-                  {
-                    "trait": "Ability§Ephemera Celero (cybertheurgic rite, master)"
-                  }
-                ]
-              },
-              "Artificia Reductor": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ability§Cybertheurgy (artificia reductor)"
-                  },
-                  {
-                    "trait": "Ability§Artificia Fulmen (cybertheurgic rite)"
-                  },
-                  {
-                    "trait": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
-                  },
-                  {
-                    "trait": "Ability§Artificia Obliteratio (cybertheurgic rite, master)"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Artificia Cybernetica",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 5
-          },
-          "M": {
-            "value": 6
-          },
-          "maxQty": {
-            "value": 1
-          },
-          "OC": {
-            "value": 1
-          },
-          "Points": {
-            "value": 240
-          },
-          "Sv": {
-            "value": 2
-          },
-          "T": {
-            "value": 8
-          },
-          "W": {
-            "value": 10
           }
         }
       },
@@ -2690,6 +2521,175 @@
           },
           "W": {
             "value": 6
+          }
+        }
+      },
+      "Character§Draykavac": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Masters of Technology",
+            "Ability§Battlesmith",
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n"
+            },
+            "Ability§Pride of Place",
+            "Ranged Weapon§Archmagos Draykavac—Graviton gun",
+            "Melee Weapon§Archmagos Draykavac—Liquifractor",
+            "Melee Weapon§Archmagos Draykavac—Machinator array",
+            "Melee Weapon§Archmagos Draykavac—Paragon blade",
+            "Ability§Stataraga High Techno-arcana",
+            "Ability§Djinn-skein"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Character Archmagos Draykavac"
+          ],
+          "Source": [
+            "Taghmata Omnissiah"
+          ],
+          "Faction": [
+            "Taghmata Omnissiah"
+          ],
+          "Keywords": [
+            "Archmagos",
+            "Archmagos Draykavac",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Master Cybertheurgist",
+            "Mounted",
+            "Traitor"
+          ]
+        },
+        "stats": {
+          "Cybertheurgy — Master": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "Artificia Cybernetica": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia cybernetica)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Exortus (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Machina": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia machina)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Integro (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Animatus Revivesco (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Incursus": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera incursus)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Custodia (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Maledictio (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (ephemera lacyraemarta)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Inmortui (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Ephemera Celero (cybertheurgic rite, master)"
+                  }
+                ]
+              },
+              "Artificia Reductor": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ability§Cybertheurgy (artificia reductor)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Fulmen (cybertheurgic rite)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
+                  },
+                  {
+                    "trait": "Ability§Artificia Obliteratio (cybertheurgic rite, master)"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Artificia Cybernetica",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 5
+          },
+          "M": {
+            "value": 6
+          },
+          "maxQty": {
+            "value": 1
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 240
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 8
+          },
+          "W": {
+            "value": 10
           }
         }
       },
@@ -3994,7 +3994,7 @@
             "Model§Myrmidon Destructor",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
@@ -4283,7 +4283,7 @@
             "Model§Myrmidon Secutor",
             "Character§Archmagos Prime",
             "Character§Magos Dominus",
-            "Character§Archmagos Draykavac",
+            "Character§Draykavac",
             "Character§Calleb Decima Invictus"
           ]
         },
