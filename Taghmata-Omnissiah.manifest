@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.5",
+  "revision": "0.4.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9035,9 +9035,6 @@
             },
             {
               "item": "Ability§Pistol"
-            },
-            {
-              "item": "Ability§Precision"
             }
           ]
         },
@@ -9123,9 +9120,6 @@
                   "value": "2"
                 }
               }
-            },
-            {
-              "item": "Ability§Precision"
             }
           ]
         },
@@ -9164,9 +9158,6 @@
           "traits": [
             {
               "item": "Ability§Hazardous"
-            },
-            {
-              "item": "Ability§Precision"
             }
           ]
         },
@@ -9210,9 +9201,6 @@
             },
             {
               "item": "Ability§Hazardous"
-            },
-            {
-              "item": "Ability§Precision"
             }
           ]
         },
