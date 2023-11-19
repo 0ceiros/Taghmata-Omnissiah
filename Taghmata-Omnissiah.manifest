@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.8",
+  "revision": "0.4.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -573,7 +573,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase when selecting this unit to shoot with, select one of the effects below to apply to this unit until the end of the phase:\n• Ranged weapons in this unit have the [IGNORES COVER] ability.\n• This unit counts as having Remained Stationary.\n• Each time a model in this unit makes a ranged attack, re-roll Wound rolls of 1."
+        "text": "In your Shooting phase when selecting this unit to shoot with, if it didn’t Advance or Fall Back, select one of the effects below to apply to this unit until the end of the phase:\n• Ranged weapons in this unit have the [IGNORES COVER] ability.\n• This unit counts as having Remained Stationary.\n• Each time a model in this unit makes a ranged attack, re-roll Wound rolls of 1."
       },
       "Ability§Search and Destroy": {
         "keywords": {
@@ -14973,6 +14973,28 @@
           "Keywords": [
             "Taghmata Omnissiah"
           ]
+        },
+        "rules": {
+          "setMagosLeadership": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "stats",
+                    "Ld",
+                    "value"
+                  ]
+                ],
+                "value": 6
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
         },
         "text": "Improve bearer’s Leadership characteristic to 6+ and add 1 to the amount of lost wounds restored when a unit is repaired by the bearer."
       },
