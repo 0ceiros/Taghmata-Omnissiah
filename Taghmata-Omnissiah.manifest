@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.6",
+  "revision": "0.4.7",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -7988,7 +7988,7 @@
             "value": 6
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Sv": {
             "value": 3
