@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.4.7",
+  "revision": "0.4.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3208,39 +3208,6 @@
         "stats": {
           "Points": {
             "value": 75
-          },
-          "Techno-arcana": {
-            "dynamic": true,
-            "group": "Loadout",
-            "ranks": {
-              "Enginseer Techno-arcana": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ability§Enginseer Techno-arcana"
-                  }
-                ]
-              },
-              "Lachrimallus Techno-arcana": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ability§Lachrimallus Techno-arcana"
-                  }
-                ]
-              },
-              "Reductor Techno-arcana": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ability§Reductor Techno-arcana"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Enginseer Techno-arcana",
-            "visibility": "normal"
           }
         }
       },
@@ -7363,6 +7330,39 @@
           },
           "T": {
             "value": 4
+          },
+          "Techno-arcana": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "Enginseer": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ability§Enginseer Techno-arcana"
+                  }
+                ]
+              },
+              "Lachrimallus": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ability§Lachrimallus Techno-arcana"
+                  }
+                ]
+              },
+              "Reductor": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ability§Reductor Techno-arcana"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Enginseer",
+            "visibility": "normal"
           },
           "W": {
             "value": 3
@@ -14968,6 +14968,14 @@
         },
         "text": "The bearer has a 4+ invulnerable save. Each time a melee attack is allocated to this model, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
       },
+      "Wargear§Enginseer Techno-arcana": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Improve bearer’s Leadership characteristic to 6+ and add 1 to the amount of lost wounds restored when a unit is repaired by the bearer."
+      },
       "Wargear§Enhanced data-tether": {
         "keywords": {
           "Keywords": [
@@ -15025,6 +15033,14 @@
         },
         "text": "Change the bearer’s Move characteristic to 12”. Bearer has the Fly keyword."
       },
+      "Wargear§Lachrimallus Techno-arcana": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability, Scyllax models in this unit gain the Feel No Pain 6+ ability. Models in this unit that already had the Feel No Pain ability instead add 1 to Feel No Pain rolls."
+      },
       "Wargear§Omnispex": {
         "keywords": {
           "Keywords": [
@@ -15032,6 +15048,14 @@
           ]
         },
         "text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+      },
+      "Wargear§Reductor Techno-arcana": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Each time a model in this unit makes an attack, re-roll Wound rolls of 1."
       },
       "Weapon§Archmagos Prime—Plasma pistol": {
         "assets": {
