@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.1",
+  "revision": "0.5.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -135,7 +135,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "While this unit is being led, in your Command phase you can return D3 destroyed models to this unit."
+        "text": "While this unit is being led, in your Command phase you can return D3 destroyed Servo-automata models to this unit."
       },
       "Ability§Cybernetica Exortus (cybertheurgic rite)": {
         "keywords": {
