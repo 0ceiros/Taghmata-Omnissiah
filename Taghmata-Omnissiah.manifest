@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.3",
+  "revision": "0.5.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -103,7 +103,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "At the start of the first battle round, one model from your army can use this ability. If it does, you can select one of the following abilities for Secutarii Axiarchs in your army to gain until the end of the battle:\n• Pain Suppression Override: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.\n• Explorator Synaesthesis: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and this model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n• Extinction Interlock: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        "text": "At the start of the first battle round, one model from your army can use this ability and can use it while embarked. If it does, you can select one of the following abilities for Secutarii Axiarchs in your army to gain until the end of the battle:\n• Pain Suppression Override: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.\n• Explorator Synaesthesis: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and this model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n• Extinction Interlock: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
       },
       "Ability§Blind": {
         "keywords": {
