@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.6",
+  "revision": "0.5.7",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -426,7 +426,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Each time a melee attack is allocated to a model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
+        "text": "Each time a melee attack is allocated to a Secutarii Hoplite in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
       },
       "Ability§Master of Destruction": {
         "keywords": {
