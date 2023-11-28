@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.7",
+  "revision": "0.5.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3664,19 +3664,6 @@
         },
         "text": "Taghmata Omnissiah model only. During the Declare Battle Formations step, select one Taghmata Omnissiah Automata unit from your army consisting of a single model. That unit gains the following effects until the end of the battle:\n• That unit cannot be joined by other Characters or targeted by [CYBERTHEURGIC RITE] abilities.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in that unit by 1 and add 2 to the Wounds characteristic of models in that unit.\n• Each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability."
       },
-      "Enhancement§Phase Walker": {
-        "keywords": {
-          "Keywords": [
-            "Reductor"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 20
-          }
-        },
-        "text": "Taghmata Omnissiah model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Then the bearer’s unit must take one Hazardous test for every model in it as if it shot with a [HAZARDOUS] weapon."
-      },
       "Enhancement§Porta Fractis": {
         "keywords": {
           "Keywords": [
@@ -3728,6 +3715,19 @@
           }
         },
         "text": "Taghmata Omnissiah model only. Once per turn, the first time a saving throw is failed for the bearer’s unit, the Damage characteristic of that attack is changed to 0."
+      },
+      "Enhancement§Warp Shunt Field": {
+        "keywords": {
+          "Keywords": [
+            "Reductor"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "Taghmata Omnissiah model only. Models in the bearer’s unit have the Stealth ability. In addition, each time a ranged attack is allocated to a model in the bearer’s unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
       },
       "Infantry/Mounted§Adsecularis Tech-thralls Covenant": {
         "allowed": {
