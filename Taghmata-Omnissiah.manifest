@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.8",
+  "revision": "0.5.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -565,7 +565,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah Automata unit within 6\" of this model. Until the start of your next Command phase, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah Automata unit within 6\" of this model. Until the start of your next Command phase, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
       },
       "Ability§Savants of Firepower": {
         "keywords": {
