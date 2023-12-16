@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.5.9",
+  "revision": "0.6.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -12,10 +12,10 @@
       "slug": "TNHUZZ",
       "name": "Imperium",
       "game": "Warhammer 40k",
-      "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/Imperium.manifest"
+      "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/Imperium.rulebook"
     }
   ],
-  "manifest": {
+  "rulebook": {
     "assetTaxonomy": {
       "Automata": {
         "templateClass": "Unit"
@@ -155,14 +155,14 @@
         },
         "text": "You can use this ability at the end of your Movement phase targeting a friendly Automata unit within 12” of this model. Until the start of your next Command phase each time an attack targets that unit, if the Strength characteristic of that attack is equal or greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
       },
-      "Ability§Cybernetica Tempestas (cybertheurgic rite, master)": {
+      "Ability§Cybernetica Obscuras (cybertheurgic rite, master)": {
         "keywords": {
           "Keywords": [
             "Cybertheurgy",
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You may use this ability at the start of the battle round. Until the end of the battle round, this model’s unit can only be targeted by a ranged attack if the attacking model is within 24\"."
+        "text": "You may use this ability at the of your opponent’s Fight phase targeting one friendly Taghmata Omnissiah unit within 18” of this model and not within Engagement Range of any enemy models. You can remove that unit from the battlefield and place it into Strategic Reserves."
       },
       "Ability§Cybertheurgy (artificia cybernetica)": {
         "keywords": {
@@ -1685,7 +1685,7 @@
                     "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
                   },
                   {
-                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                    "trait": "Ability§Cybernetica Obscuras (cybertheurgic rite, master)"
                   }
                 ]
               },
@@ -2010,7 +2010,7 @@
                     "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
                   },
                   {
-                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                    "trait": "Ability§Cybernetica Obscuras (cybertheurgic rite, master)"
                   }
                 ]
               },
@@ -2421,7 +2421,7 @@
                     "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
                   },
                   {
-                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                    "trait": "Ability§Cybernetica Obscuras (cybertheurgic rite, master)"
                   }
                 ]
               },
@@ -2590,7 +2590,7 @@
                     "trait": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
                   },
                   {
-                    "trait": "Ability§Cybernetica Tempestas (cybertheurgic rite, master)"
+                    "trait": "Ability§Cybernetica Obscuras (cybertheurgic rite, master)"
                   }
                 ]
               },
