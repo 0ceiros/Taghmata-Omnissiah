@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.6.0",
+  "revision": "0.7.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -335,7 +335,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Once per battle round, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+        "text": "Once per game, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
       },
       "Ability§Greuso Protocol": {
         "keywords": {
@@ -783,6 +783,7 @@
             "Battleline",
             "Castellax",
             "Imperium",
+            "Monster",
             "Walker"
           ],
           "Tags": [
@@ -934,7 +935,6 @@
           ],
           "traits": [
             "Ability§Masters of Technology",
-            "Ability§Move Through Cover",
             "Ability§Rad Furnace"
           ]
         },
@@ -942,6 +942,7 @@
           "Keywords": [
             "Automata",
             "Battleline",
+            "Beasts",
             "Imperium",
             "Scyllax"
           ],
@@ -1066,6 +1067,7 @@
           "Keywords": [
             "Automata",
             "Battleline",
+            "Beasts",
             "Fly",
             "Imperium",
             "Servo-automata"
@@ -1453,6 +1455,7 @@
           ],
           "Keywords": [
             "Automata",
+            "Beasts",
             "Imperium",
             "Vorax"
           ],
@@ -1660,7 +1663,6 @@
             "Anacharis Scoria",
             "Character",
             "Epic Hero",
-            "Grenades",
             "Imperium",
             "Master Cybertheurgist",
             "Mounted",
@@ -2225,7 +2227,7 @@
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "9\""
+                  "value": "7\""
                 }
               }
             },
@@ -2565,7 +2567,6 @@
             "Draykavac",
             "Character",
             "Epic Hero",
-            "Grenades",
             "Imperium",
             "Master Cybertheurgist",
             "Mounted",
@@ -6618,7 +6619,7 @@
             "value": -3
           },
           "D": {
-            "value": 5
+            "value": 4
           },
           "S": {
             "value": 12
@@ -7123,8 +7124,7 @@
         "assets": {
           "traits": [
             "Weapon§Domitar—Graviton hammer",
-            "Weapon§Domitar—Missile launcher",
-            "Weapon§Domitar—Graviton hammer"
+            "Weapon§Domitar—Missile launcher"
           ]
         },
         "keywords": {
@@ -9809,7 +9809,7 @@
         "stats": {
           "A": {
             "statType": "term",
-            "value": "D6"
+            "value": "2D6"
           },
           "AP": {
             "value": 0
@@ -13002,7 +13002,7 @@
           },
           "D": {
             "statType": "term",
-            "value": "D6+2"
+            "value": "D6+1"
           },
           "Range": {
             "value": 48
@@ -14118,7 +14118,6 @@
           "Keywords": [
             "Imperium",
             "Karacnos Assault Tank",
-            "Smoke",
             "Vehicle"
           ]
         },
@@ -14510,7 +14509,6 @@
           "Keywords": [
             "Imperium",
             "Krios Battle Tank",
-            "Smoke",
             "Vehicle"
           ],
           "Source": [
@@ -14608,7 +14606,6 @@
           "Keywords": [
             "Imperium",
             "Krios Venator",
-            "Smoke",
             "Vehicle"
           ],
           "Source": [
@@ -14911,7 +14908,6 @@
             "Transport",
             "Dedicated Transport",
             "Triaros Armoured Conveyor",
-            "Smoke",
             "Vehicle"
           ]
         },
@@ -15061,7 +15057,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability, Scyllax models in this unit gain the Feel No Pain 6+ ability. Models in this unit that already had the Feel No Pain ability instead add 1 to Feel No Pain rolls."
+        "text": "Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability, Scyllax models in this unit gain the Feel No Pain 6+ ability. Models in this unit that already had the Feel No Pain ability instead improve their Feel No Pain ability by one (to a maximum of Feel No Pain 4+)."
       },
       "Wargear§Omnispex": {
         "keywords": {
@@ -15135,7 +15131,7 @@
         },
         "stats": {
           "weaponName": {
-            "value": "Graviton hammer"
+            "value": "Graviton hammers"
           }
         }
       },
