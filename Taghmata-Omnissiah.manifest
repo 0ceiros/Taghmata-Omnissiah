@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.7.0",
+  "revision": "0.7.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -783,7 +783,6 @@
             "Battleline",
             "Castellax",
             "Imperium",
-            "Monster",
             "Walker"
           ],
           "Tags": [
@@ -2316,34 +2315,6 @@
           },
           "Points": {
             "value": 100
-          },
-          "Ranged Options": {
-            "dynamic": true,
-            "group": "Loadout",
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Phased plasma-fusil": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Arcuitor Magisterium—Phased plasma-fusil"
-                  }
-                ]
-              },
-              "Photon thruster": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Arcuitor Magisterium—Photon thruster"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Phased plasma-fusil",
-            "visibility": "normal"
           },
           "Sv": {
             "value": 3
