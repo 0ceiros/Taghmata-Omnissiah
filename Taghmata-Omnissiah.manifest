@@ -13825,6 +13825,11 @@
             "Yours"
           ]
         },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
         "text": "**WHEN**: Start of your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound."
       },
       "Stratagem§Rite of Immolation": {
