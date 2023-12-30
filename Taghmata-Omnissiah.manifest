@@ -49,7 +49,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the start of the battle round. Until the end of the battle round, once, when one visible to this model friendly Taghmata Omnissiah Vehicle model is destroyed within 3” of this model, you can choose to roll one D6 at the end of the phase instead of using any rules that are triggered when a model is destroyed. If you do so, then on a 3+, set that model back up on the battlefield as close as possible to where they were destroyed, and not within Engagement Range of any enemy models, with 3 wounds remaining, otherwise that is Vehicle destroyed as normal. If that model is Titanic a roll of a 6 is required instead."
+        "text": "You can use this ability at the start of the battle round. Until the end of the battle round, once, when one visible to this model friendly Taghmata Omnissiah Vehicle model is destroyed within 3” of this model, you can choose to roll one D6 at the end of the phase instead of using any rules that are triggered when a model is destroyed. If you do so, then on a 3+, set that model back up on the battlefield as close as possible to where they were destroyed, and not within Engagement Range of any enemy models, with 3 wounds remaining, otherwise that is Vehicle destroyed as normal. If that model is Titanic a roll of a 6 is required instead. Each Vehicle can only be affected by this ability once per battle."
       },
       "Ability§Anti-vehicle 2+": {
         "text": "An unmodified Wound roll of 2+ against a target with the matching keyword scores a Critical Wound."
