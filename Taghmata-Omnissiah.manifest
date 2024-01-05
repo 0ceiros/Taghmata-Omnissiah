@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.1",
+  "revision": "0.8.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3518,10 +3518,10 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 15
           }
         },
-        "text": "Taghmata Omnissiah model only. At the end of your Movement phase the bearer can use this Enhancement. If it does, select one unit within 3” of the bearer, that unit suffers D3 mortal wounds, then roll one D6: on a 3+ you gain 1CP."
+        "text": "Taghmata Omnissiah model only. At the end of your Movement phase the bearer can use this Enhancement. If it does, select one enemy unit within 9” of the bearer’s unit and visible to the bearer’s unit, that enemy unit suffers D3 mortal wounds, then roll one D6: on a 3+ you gain 1CP."
       },
       "Enhancement§Manos Ruinus": {
         "assets": {
