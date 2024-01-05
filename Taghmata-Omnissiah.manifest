@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.7.2",
+  "revision": "0.8.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -13597,7 +13597,7 @@
           }
         }
       },
-      "Roster§Army": {
+      "Roster§Roster": {
         "allowed": {
           "classifications": [
             "Automata"
@@ -13606,9 +13606,6 @@
         "stats": {
           "Detachment": {
             "ranks": {
-              "-": {
-                "order": 0
-              },
               "Myrmidax": {
                 "order": 0,
                 "traits": [
@@ -13639,31 +13636,14 @@
           "Faction": {
             "dynamic": false,
             "ranks": {
-              "Taghmata Omnissiah": {
-                "order": 1
-              }
-            },
-            "value": "Taghmata Omnissiah"
-          },
-          "Faction Group": {
-            "dynamic": true,
-            "ranks": {
               "-": {
                 "order": 0
               },
-              "Imperium": {
-                "order": 0,
-                "term": "Imperium Faction"
-              },
-              "Chaos": {
-                "order": 1,
-                "term": "Chaos Faction"
-              },
-              "Xenos": {
-                "order": 3,
-                "term": "Xenos Faction"
+              "Taghmata Omnissiah": {
+                "order": 0
               }
-            }
+            },
+            "value": "Taghmata Omnissiah"
           }
         }
       },
