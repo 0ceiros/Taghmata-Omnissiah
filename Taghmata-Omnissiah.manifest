@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.2",
+  "revision": "0.8.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -144,7 +144,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the end of your Movement phase targeting a friendly Automata unit within 12” of this model. Select one of the following abilities to apply to that unit until the start of your next Command phase:\n• Each time an Automata model in that unit makes an attack with a melee weapon, add 1 to the Hit roll. Add 1 to Advance and Charge rolls made for that unit.\n• Improve the Ballistic Skill characteristic of ranged weapons in that Automata unit by 1.\n• Once in your opponent’s Shooting phase, when a saving throw is failed for an Automata model in that unit, change the Damage characteristic of that attack to 0."
+        "text": "You can use this ability at the end of your Movement phase targeting a friendly Automata unit within 12” of this model. Select one of the following abilities to apply to that unit until the start of your next Command phase:\n• Each time an Automata model in that unit makes an attack with a melee weapon, add 1 to the Hit roll. Add 1 to Charge rolls made for that unit.\n• Improve the Ballistic Skill characteristic of ranged weapons in that Automata unit by 1.\n• Once in your opponent’s Shooting phase, when a saving throw is failed for an Automata model in that unit, change the Damage characteristic of that attack to 0."
       },
       "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)": {
         "keywords": {
