@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.3",
+  "revision": "0.8.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -621,7 +621,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "During deployment, you can set up this model in Reserves instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" away from any enemy models. Any embarked models may then disembark, but must be set up on the battlefield more than 9\" away from any enemy models."
+        "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
       },
       "Ability§Tank Hunter": {
         "keywords": {
@@ -14722,7 +14722,8 @@
               "text": "This model has a transport capacity of 13 Taghmata Omnissiah Infantry, Servo-automata or Scyllax models. Each Lorica Thallax model takes up the space of 2 models and each Myrmidon model takes up the space of 3 models."
             },
             "Melee Weapon§Terrax Pattern Termite Assault Drill—Termite drill",
-            "Ranged Weapon§Terrax Pattern Termite Assault Drill—Terrax melta cutter"
+            "Ranged Weapon§Terrax Pattern Termite Assault Drill—Terrax melta cutter",
+            "Ability§Deep Strike"
           ]
         },
         "keywords": {
