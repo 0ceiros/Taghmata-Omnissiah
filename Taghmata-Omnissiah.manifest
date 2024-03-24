@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.4",
+  "revision": "0.8.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2349,7 +2349,6 @@
             "Ranged Weapon§Calleb Decima Invictus—Curse of the Omnissiah",
             "Melee Weapon§Calleb Decima Invictus—Omnissian axe",
             "Melee Weapon§Calleb Decima Invictus—Machinator array",
-            "Ability§Hatred",
             "Ability§Master of Destruction",
             "Ability§Battlefield Analysis"
           ]
@@ -2484,7 +2483,7 @@
             "value": 1
           },
           "Points": {
-            "value": 250
+            "value": 240
           },
           "Sv": {
             "value": 3
