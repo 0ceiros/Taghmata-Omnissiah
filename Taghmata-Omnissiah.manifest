@@ -2872,6 +2872,59 @@
           "Points": {
             "value": 100
           },
+          "Special Options": {
+            "dynamic": true,
+            "group": "Loadout",
+            "ranks": {
+              "-": {
+                "order": 0,
+                "traits": []
+              },
+              "Graviton gun": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Magos Dominus—Graviton gun"
+                  }
+                ]
+              },
+              "Meltagun": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Magos Dominus—Meltagun"
+                  }
+                ]
+              },
+              "Irad-cleanser": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Magos Dominus—Irad-cleanser"
+                  }
+                ]
+              },
+              "Phased plasma-fusil": {
+                "order": 5,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Magos Dominus—Phased plasma-fusil"
+                  }
+                ]
+              },
+              "Photon thruster": {
+                "order": 6,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Magos Dominus—Photon thruster"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
           "Sv": {
             "value": 3
           },
