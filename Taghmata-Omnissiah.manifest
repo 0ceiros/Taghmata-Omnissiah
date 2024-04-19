@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.6",
+  "revision": "0.8.7",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -8364,7 +8364,8 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "statType": "term",
+            "value": "D3"
           },
           "AP": {
             "value": -2
@@ -8373,7 +8374,7 @@
             "value": 2
           },
           "D": {
-            "value": 3
+            "value": 2
           },
           "Range": {
             "value": 18
@@ -8542,7 +8543,8 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "statType": "term",
+            "value": "D3"
           },
           "AP": {
             "value": -2
@@ -8551,7 +8553,7 @@
             "value": 2
           },
           "D": {
-            "value": 3
+            "value": 2
           },
           "Range": {
             "value": 18
@@ -10449,7 +10451,8 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "statType": "term",
+            "value": "D3"
           },
           "AP": {
             "value": -2
@@ -10458,7 +10461,7 @@
             "value": 3
           },
           "D": {
-            "value": 3
+            "value": 2
           },
           "Range": {
             "value": 18
@@ -11280,7 +11283,8 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "statType": "term",
+            "value": "D3"
           },
           "AP": {
             "value": -2
@@ -11289,7 +11293,7 @@
             "value": 2
           },
           "D": {
-            "value": 3
+            "value": 2
           },
           "Range": {
             "value": 18
@@ -11567,7 +11571,8 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "statType": "term",
+            "value": "D3"
           },
           "AP": {
             "value": -2
@@ -11576,7 +11581,7 @@
             "value": 3
           },
           "D": {
-            "value": 3
+            "value": 2
           },
           "Range": {
             "value": 18
