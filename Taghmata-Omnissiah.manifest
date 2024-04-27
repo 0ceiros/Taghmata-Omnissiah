@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.7",
+  "revision": "0.8.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -550,6 +550,14 @@
           ]
         },
         "text": "Each time a model in this unit makes an attack, re-roll Wound rolls of 1."
+      },
+      "Ability§Refractor Protectiva": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
       },
       "Ability§Revenant Alchemistry": {
         "keywords": {
@@ -1622,7 +1630,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "3+"
+                  "value": "4+"
                 }
               }
             },
@@ -1648,9 +1656,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Anacharis Scoria"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -1666,6 +1672,9 @@
             "Master Cybertheurgist",
             "Mounted",
             "Traitor"
+          ],
+          "Category": [
+            "Epic Hero"
           ]
         },
         "stats": {
@@ -1776,7 +1785,7 @@
             "value": 3
           },
           "Points": {
-            "value": 385
+            "value": 335
           },
           "Sv": {
             "value": 2
@@ -1796,7 +1805,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "3+"
+                  "value": "4+"
                 }
               }
             },
@@ -1808,13 +1817,12 @@
             },
             "Ability§Pride of Place",
             "Ability§Optimal Efficiency",
-            "Melee Weapon§Archmagos Prime—Close combat weapon"
+            "Melee Weapon§Archmagos Prime—Close combat weapon",
+            "Ability§Refractor Protectiva"
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Archmagos Prime"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -1829,6 +1837,9 @@
             "Imperium",
             "Infantry",
             "Master Cybertheurgist"
+          ],
+          "Category": [
+            "Character"
           ]
         },
         "stats": {
@@ -2257,9 +2268,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Arcuitor Magisterium"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -2273,6 +2282,9 @@
             "Imperium",
             "Infantry",
             "Loyalist"
+          ],
+          "Category": [
+            "Character"
           ]
         },
         "stats": {
@@ -2354,9 +2366,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Calleb Decima Invictus"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -2373,6 +2383,9 @@
             "Imperium",
             "Infantry",
             "Master Cybertheurgist"
+          ],
+          "Category": [
+            "Epic Hero"
           ]
         },
         "stats": {
@@ -2523,9 +2536,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Draykavac"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -2541,6 +2552,9 @@
             "Master Cybertheurgist",
             "Mounted",
             "Traitor"
+          ],
+          "Category": [
+            "Epic Hero"
           ]
         },
         "stats": {
@@ -2695,9 +2709,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Magos Dominus"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -2710,6 +2722,9 @@
             "Imperium",
             "Infantry",
             "Magos Dominus"
+          ],
+          "Category": [
+            "Character"
           ]
         },
         "stats": {
@@ -2964,9 +2979,7 @@
           ]
         },
         "keywords": {
-          "Tags": [
-            "Character Secutarii Axiarch"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
@@ -2979,6 +2992,9 @@
             "Imperium",
             "Infantry",
             "Secutarii Axiarch"
+          ],
+          "Category": [
+            "Character"
           ]
         },
         "rules": {
@@ -3219,14 +3235,15 @@
             "Infantry",
             "Tech-priest"
           ],
-          "Tags": [
-            "Character Tech-Priest Auxilia Covenant"
-          ],
+          "Tags": [],
           "Source": [
             "Taghmata Omnissiah"
           ],
           "Faction": [
             "Taghmata Omnissiah"
+          ],
+          "Category": [
+            "Character"
           ]
         },
         "stats": {
