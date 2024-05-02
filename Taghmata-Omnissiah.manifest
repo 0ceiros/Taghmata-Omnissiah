@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.8",
+  "revision": "0.8.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -581,7 +581,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase when selecting this unit to shoot with, if it didn’t Advance or Fall Back this turn, select one of the effects below to apply to this unit until the end of the phase:\n• Ranged weapons in this unit have the [IGNORES COVER] ability.\n• This unit counts as having Remained Stationary.\n• Each time a model in this unit makes a ranged attack, re-roll Wound rolls of 1."
+        "text": "In your Shooting phase, when selecting this unit to shoot with, select one of the effects below to apply to this unit until the end of the phase:\n• Ranged weapons in this unit have the [IGNORES COVER] ability.\n• Each time a model in this unit makes a ranged attack, add 1 to the Hit roll.\n• Each time a model in this unit makes a ranged attack, re-roll Wound rolls of 1."
       },
       "Ability§Search and Destroy": {
         "keywords": {
@@ -4261,13 +4261,13 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 450
+            "value": 425
           },
           "model2ndTally": {
             "value": 5
           },
           "model3rdCost": {
-            "value": 540
+            "value": 510
           },
           "model3rdTally": {
             "value": 6
@@ -4281,7 +4281,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 270
+            "value": 255
           }
         }
       },
@@ -5594,10 +5594,10 @@
             "value": 1
           },
           "S": {
-            "value": 6
+            "value": 5
           },
           "WS": {
-            "value": 4
+            "value": 3
           }
         }
       },
@@ -5624,7 +5624,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -1
@@ -5655,13 +5655,13 @@
             "value": 2
           },
           "AP": {
-            "value": -2
+            "value": -3
           },
           "D": {
             "value": 3
           },
           "S": {
-            "value": 10
+            "value": 12
           },
           "WS": {
             "value": 4
@@ -6662,7 +6662,8 @@
             "value": -3
           },
           "D": {
-            "value": 4
+            "statType": "term",
+            "value": "D6+2"
           },
           "S": {
             "value": 12
@@ -6698,7 +6699,7 @@
             "value": 7
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "D": {
             "value": 2
@@ -13050,7 +13051,7 @@
           },
           "D": {
             "statType": "term",
-            "value": "D6+1"
+            "value": "D6+2"
           },
           "Range": {
             "value": 48
