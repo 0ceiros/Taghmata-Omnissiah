@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.0",
+  "revision": "0.8.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -517,7 +517,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "While an non-Vehicle enemy unit is within 3” of this unit, it is rad-phaged. While a unit is rad-phaged, subtract 1 from the Toughness characteristic of models in that enemy unit."
+        "text": "While a non-Vehicle enemy unit is within 3” of this unit, it is rad-phaged. While a unit is rad-phaged, subtract 1 from the Toughness characteristic of models in that unit."
       },
       "Ability§Rad-phage Bombardment": {
         "keywords": {
@@ -525,7 +525,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Karacnos mortar battery scored a hit against an enemy non-Vehicle unit, that non-Vehicle unit must take a Battle-shock test and becomes rad-phaged until the end of your opponent’s next turn. While a unit is rad-phaged, subtract 1 from the Toughness characteristic of models in that enemy unit."
+        "text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Karacnos mortar battery scored a hit against an enemy non-Vehicle unit, that unit becomes rad-phaged until the end of your opponent’s next turn. While a unit is rad-phaged, subtract 1 from the Toughness characteristic of models in that unit."
       },
       "Ability§Reactor Overload": {
         "keywords": {
@@ -6696,7 +6696,7 @@
         },
         "stats": {
           "A": {
-            "value": 8
+            "value": 7
           },
           "AP": {
             "value": -2
@@ -10074,7 +10074,7 @@
             "value": -1
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
             "value": 1
