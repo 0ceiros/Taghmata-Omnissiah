@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.8.9",
+  "revision": "0.9.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3110,7 +3110,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 65
           },
           "Ranged Options": {
             "dynamic": true,
@@ -4450,13 +4450,13 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 260
+            "value": 240
           },
           "model2ndTally": {
             "value": 20
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "Secutarii Hoplite": {
             "max": 19,
@@ -4554,13 +4554,13 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 280
+            "value": 260
           },
           "model2ndTally": {
             "value": 20
           },
           "Points": {
-            "value": 140
+            "value": 130
           },
           "Secutarii Peltast": {
             "max": 19,
