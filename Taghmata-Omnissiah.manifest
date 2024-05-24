@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.1",
+  "revision": "0.9.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -20,8 +20,113 @@
       "Automata": {
         "templateClass": "Unit"
       },
+      "Character": {},
       "Enhancement": {},
-      "Model": {}
+      "Model": {},
+      "Unit": {
+        "rules": {
+          "CountArchmagosUnits": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "ArchmagosCount",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Taghmata Omnissiah"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Archmagos"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 1
+          },
+          "CountArcuitorUnits": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "ArcuitorCount",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Arcuitor Magisterium"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 1
+          }
+        },
+        "stats": {
+          "ArchmagosCount": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "ArcuitorCount": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          }
+        }
+      }
     },
     "assetCatalog": {
       "Ability§Animatus Incumbo (cybertheurgic rite, adept)": {
@@ -335,7 +440,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Once per game, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+        "text": "Once per battle, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
       },
       "Ability§Greuso Protocol": {
         "keywords": {
@@ -533,7 +638,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can shoot again using only its plasma mortar. If it does, after this unit has finished making its attacks it suffers D3+3 mortal wounds and cannot shoot until the end of the turn."
+        "text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can shoot again using only its plasma mortar. If it does, after this unit has finished making its attacks it suffers D6 mortal wounds and cannot shoot until the end of the turn."
       },
       "Ability§Recalculate Priority": {
         "keywords": {
@@ -1348,7 +1453,7 @@
                 }
               }
             },
-            "Ranged Weapon§Thanatar-Cavas—Plasma mortar",
+            "Weapon§Thanatar-Cavas—Plasma mortar",
             "Melee Weapon§Thanatar-Cavas—Thanatar shock chargers",
             "Ranged Weapon§Thanatar-Cavas—Twin-linked mauler bolt cannon",
             {
@@ -2156,9 +2261,7 @@
           "M": {
             "value": 6
           },
-          "maxQty": {
-            "value": 1
-          },
+          "maxQty": {},
           "OC": {
             "value": 1
           },
@@ -2201,7 +2304,7 @@
                 "order": 5,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Archmagos Prime—Phased plasma-fusil"
+                    "trait": "Weapon§Archmagos Prime—Phased plasma-fusil"
                   }
                 ]
               },
@@ -2294,9 +2397,7 @@
           "M": {
             "value": 7
           },
-          "maxQty": {
-            "value": 1
-          },
+          "maxQty": {},
           "Melee Options": {
             "dynamic": true,
             "group": "Loadout",
@@ -2923,7 +3024,7 @@
                 "order": 5,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Magos Dominus—Phased plasma-fusil"
+                    "trait": "Weapon§Magos Dominus—Phased plasma-fusil"
                   }
                 ]
               },
@@ -3577,7 +3678,7 @@
             "value": 15
           }
         },
-        "text": "Taghmata Omnissiah model only. You can re-roll Advance and Charge rolls made for the bearer’s unit and you can re-roll Leadership, Battle-shock, Blind, Desperate Escape and Hazardous tests made for the bearer’s unit."
+        "text": "Taghmata Omnissiah model only. You can re-roll Advance and Charge rolls made for the bearer’s unit and you can re-roll Leadership, Battle-shock, Desperate Escape and Hazardous tests made for the bearer’s unit."
       },
       "Enhancement§Electroleech Syphon": {
         "keywords": {
@@ -7487,7 +7588,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil"
+                    "trait": "Weapon§Myrmidon Secutor—Phased plasma-fusil"
                   }
                 ]
               }
@@ -7520,7 +7621,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil"
+                    "trait": "Weapon§Myrmidon Secutor—Phased plasma-fusil"
                   }
                 ]
               }
@@ -7927,7 +8028,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil"
+                    "trait": "Weapon§Myrmidon Secutor—Phased plasma-fusil"
                   }
                 ]
               }
@@ -7960,7 +8061,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil"
+                    "trait": "Weapon§Myrmidon Secutor—Phased plasma-fusil"
                   }
                 ]
               }
@@ -8115,7 +8216,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Thallax—Phased plasma-fusil"
+                    "trait": "Weapon§Thallax—Phased plasma-fusil"
                   },
                   {
                     "trait": "Melee Weapon§Thallax—Close combat weapon"
@@ -8373,9 +8474,6 @@
               "item": "Ability§Lethal Hits"
             },
             {
-              "item": "Ability§Blind"
-            },
-            {
               "item": "Ability§Hazardous"
             }
           ]
@@ -8396,13 +8494,13 @@
             "value": 2
           },
           "D": {
-            "value": 2
+            "value": 3
           },
           "Range": {
             "value": 24
           },
           "S": {
-            "value": 6
+            "value": 7
           }
         }
       },
@@ -8504,7 +8602,6 @@
             {
               "item": "Ability§Heavy"
             },
-            "Ability§Blind",
             "Ability§Conversion",
             {
               "item": "Ability§Sustained Hits",
@@ -8883,9 +8980,42 @@
           }
         }
       },
-      "Ranged Weapon§Archmagos Prime—Phased plasma-fusil": {
+      "Ranged Weapon§Archmagos Prime—Phased plasma-fusil — standard": {
         "aspects": {
-          "Label": "Phased plasma-fusil"
+          "Label": "standard"
+        },
+        "assets": {
+          "traits": []
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Archmagos Prime—Phased plasma-fusil — supercharge": {
+        "aspects": {
+          "Label": "supercharge"
         },
         "assets": {
           "traits": [
@@ -8926,8 +9056,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Blind"
+            "Ability§Hazardous"
           ]
         },
         "keywords": {
@@ -8966,9 +9095,6 @@
               "item": "Ability§Lethal Hits"
             },
             {
-              "item": "Ability§Blind"
-            },
-            {
               "item": "Ability§Hazardous"
             }
           ]
@@ -8989,13 +9115,13 @@
             "value": 2
           },
           "D": {
-            "value": 2
+            "value": 3
           },
           "Range": {
             "value": 24
           },
           "S": {
-            "value": 6
+            "value": 7
           }
         }
       },
@@ -9193,86 +9319,6 @@
           },
           "S": {
             "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Arcuitor Magisterium—Phased plasma-fusil": {
-        "aspects": {
-          "Label": "Phased plasma-fusil"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Hazardous"
-            }
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Taghmata Omnissiah"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Arcuitor Magisterium—Photon thruster": {
-        "aspects": {
-          "Label": "Photon thruster"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Lethal Hits"
-            },
-            {
-              "item": "Ability§Blind"
-            },
-            {
-              "item": "Ability§Hazardous"
-            }
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Taghmata Omnissiah"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 6
           }
         }
       },
@@ -9610,9 +9656,6 @@
             },
             {
               "item": "Ability§Heavy"
-            },
-            {
-              "item": "Ability§Blind"
             },
             {
               "item": "Ability§Hazardous"
@@ -10412,7 +10455,6 @@
             {
               "item": "Ability§Heavy"
             },
-            "Ability§Blind",
             "Ability§Conversion",
             {
               "item": "Ability§Sustained Hits",
@@ -10650,9 +10692,42 @@
           }
         }
       },
-      "Ranged Weapon§Magos Dominus—Phased plasma-fusil": {
+      "Ranged Weapon§Magos Dominus—Phased plasma-fusil - standard": {
         "aspects": {
-          "Label": "Phased plasma-fusil"
+          "Label": "standard"
+        },
+        "assets": {
+          "traits": []
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Magos Dominus—Phased plasma-fusil - supercharge": {
+        "aspects": {
+          "Label": "supercharge"
         },
         "assets": {
           "traits": [
@@ -10693,8 +10768,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Blind"
+            "Ability§Hazardous"
           ]
         },
         "keywords": {
@@ -10733,9 +10807,6 @@
               "item": "Ability§Lethal Hits"
             },
             {
-              "item": "Ability§Blind"
-            },
-            {
               "item": "Ability§Hazardous"
             }
           ]
@@ -10756,13 +10827,13 @@
             "value": 3
           },
           "D": {
-            "value": 2
+            "value": 3
           },
           "Range": {
             "value": 24
           },
           "S": {
-            "value": 6
+            "value": 7
           }
         }
       },
@@ -10843,7 +10914,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blind",
             "Ability§Conversion",
             {
               "item": "Ability§Sustained Hits",
@@ -11087,7 +11157,6 @@
             {
               "item": "Ability§Heavy"
             },
-            "Ability§Blind",
             "Ability§Conversion",
             {
               "item": "Ability§Sustained Hits",
@@ -11136,9 +11205,6 @@
             },
             {
               "item": "Ability§Heavy"
-            },
-            {
-              "item": "Ability§Blind"
             },
             {
               "item": "Ability§Hazardous"
@@ -11439,9 +11505,42 @@
           }
         }
       },
-      "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil": {
+      "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil - standard": {
         "aspects": {
-          "Label": "Phased plasma-fusil"
+          "Label": "standard"
+        },
+        "assets": {
+          "traits": []
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil - supercharge": {
+        "aspects": {
+          "Label": "supercharge"
         },
         "assets": {
           "traits": [
@@ -11503,7 +11602,8 @@
                   "value": "3+"
                 }
               }
-            }
+            },
+            "Ability§Torrent"
           ]
         },
         "keywords": {
@@ -11520,7 +11620,9 @@
             "value": -3
           },
           "BS": {
-            "value": 3
+            "format": "{v}",
+            "statType": "term",
+            "value": "N/A"
           },
           "D": {
             "value": 3
@@ -12105,8 +12207,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Blind"
+            "Ability§Hazardous"
           ]
         },
         "keywords": {
@@ -12889,9 +12990,42 @@
           }
         }
       },
-      "Ranged Weapon§Thallax—Phased plasma-fusil": {
+      "Ranged Weapon§Thallax—Phased plasma-fusil - standard": {
         "aspects": {
-          "Label": "Phased plasma-fusil"
+          "Label": "standard"
+        },
+        "assets": {
+          "traits": []
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Thallax—Phased plasma-fusil - supercharge": {
+        "aspects": {
+          "Label": "supercharge"
         },
         "assets": {
           "traits": [
@@ -12936,9 +13070,6 @@
               "item": "Ability§Lethal Hits"
             },
             {
-              "item": "Ability§Blind"
-            },
-            {
               "item": "Ability§Hazardous"
             }
           ]
@@ -12959,13 +13090,13 @@
             "value": 3
           },
           "D": {
-            "value": 2
+            "value": 3
           },
           "Range": {
             "value": 24
           },
           "S": {
-            "value": 6
+            "value": 7
           }
         }
       },
@@ -13106,9 +13237,47 @@
           }
         }
       },
-      "Ranged Weapon§Thanatar-Cavas—Plasma mortar": {
+      "Ranged Weapon§Thanatar-Cavas—Plasma mortar - standard": {
         "aspects": {
-          "Label": "Plasma mortar"
+          "Label": "standard"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Thanatar-Cavas—Plasma mortar - supercharge": {
+        "aspects": {
+          "Label": "supercharge"
         },
         "assets": {
           "traits": [
@@ -13131,7 +13300,7 @@
             "value": "D6"
           },
           "AP": {
-            "value": -3
+            "value": -4
           },
           "BS": {
             "value": 3
@@ -13143,7 +13312,7 @@
             "value": 36
           },
           "S": {
-            "value": 8
+            "value": 9
           }
         }
       },
@@ -13678,7 +13847,83 @@
             "Automata"
           ]
         },
+        "rules": {
+          "Too many Archmagos units.": {
+            "evals": [
+              {
+                "actionable": true,
+                "max": [
+                  "{self}",
+                  "tracked",
+                  "ArchmagosMax"
+                ],
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "ArchmagosCount",
+                    "value"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "error",
+            "order": 60
+          },
+          "Too many Arcuitor units.": {
+            "evals": [
+              {
+                "actionable": true,
+                "max": [
+                  "{self}",
+                  "tracked",
+                  "ArcuitorMax"
+                ],
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "ArcuitorCount",
+                    "value"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "error",
+            "order": 60
+          }
+        },
         "stats": {
+          "ArchmagosCount": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "ArchmagosMax": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 1,
+            "visibility": "hidden"
+          },
+          "ArcuitorCount": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "ArcuitorMax": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 1,
+            "visibility": "hidden"
+          },
           "Detachment": {
             "ranks": {
               "Myrmidax": {
@@ -13885,7 +14130,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Start of your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound."
+        "text": "**WHEN**: Your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound."
       },
       "Stratagem§Rite of Immolation": {
         "keywords": {
@@ -13909,7 +14154,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: In any phase, just after a model from your army with the Deadly Demise ability is destroyed, before you make a roll for its Deadly Demise.\n\n**TARGET**: That model.\n\n**EFFECT**: The roll for that model’s Deadly Demise ability is automatically an unmodified roll of 6.\n\n**RESTRICTIONS**: This Stratagem costs 1CP. If the target of this Stratagem has a Wounds characteristic of 14 or more, this Stratagem costs 2CP instead."
+        "text": "**WHEN**: In any phase, just after a model from your army with the Deadly Demise ability is destroyed, before you make a roll for its Deadly Demise.\n\n**TARGET**: That model. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT**: The roll for that model’s Deadly Demise ability is automatically an unmodified roll of 6.\n\n**RESTRICTIONS**: This Stratagem costs 1CP. If the target of this Stratagem has a Wounds characteristic of 14 or more, this Stratagem costs 2CP instead."
       },
       "Stratagem§Rubble and Ruin": {
         "keywords": {
@@ -14002,7 +14247,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: In any phase, just after an enemy model with the Deadly Demise ability is destroyed, before your opponent makes a roll for its Deadly Demise.\n\n**TARGET**: That model.\n\n**EFFECT**: That model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6.\n\n**RESTRICTIONS**: This Stratagem costs 1CP. If the target of this Stratagem has a Wounds characteristic of 14 or more, this Stratagem costs 2CP instead."
+        "text": "**WHEN**: In any phase, just after an enemy model with the Deadly Demise ability is destroyed, before your opponent makes a roll for its Deadly Demise.\n\n**TARGET**: That model. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT**: That model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6.\n\n**RESTRICTIONS**: This Stratagem costs 1CP. If the target of this Stratagem has a Wounds characteristic of 14 or more, this Stratagem costs 2CP instead."
       },
       "Stratagem§Secrets of Arcana": {
         "keywords": {
@@ -14098,7 +14343,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Start of your opponent’s Command phase.\n\n**TARGET**: One objective marker.\n\n**EFFECT**: That objective marker is under bombardment. While an objective marker is under bombardment, at the end of every turn every unit within 3” of that objective marker suffers D3 mortal wounds. Afterwards, roll one D6: on a 4+ that objective marker is no longer under bombardment."
+        "text": "**WHEN**: Your opponent’s Command phase.\n\n**TARGET**: One objective marker.\n\n**EFFECT**: That objective marker is under bombardment. While an objective marker is under bombardment, at the end of every turn every unit within 3” of that objective marker suffers D3 mortal wounds. Afterwards, roll one D6: on a 4+ that objective marker is no longer under bombardment."
       },
       "Vehicle§Karacnos Assault Tank": {
         "assets": {
@@ -14153,7 +14398,7 @@
           ]
         },
         "stats": {
-          "Hunter-killer missile": {
+          "2 hunter-killer missiles": {
             "dynamic": true,
             "group": "Loadout",
             "groupOrder": 2,
@@ -14164,6 +14409,9 @@
               "✓": {
                 "order": 1,
                 "traits": [
+                  {
+                    "trait": "Ranged Weapon§Karacnos Assault Tank—Hunter-killer missile"
+                  },
                   {
                     "trait": "Ranged Weapon§Karacnos Assault Tank—Hunter-killer missile"
                   }
@@ -14550,7 +14798,7 @@
           ]
         },
         "stats": {
-          "Hunter-killer missile": {
+          "2 hunter-killer missiles": {
             "dynamic": true,
             "group": "Loadout",
             "groupOrder": 2,
@@ -14561,6 +14809,9 @@
               "✓": {
                 "order": 1,
                 "traits": [
+                  {
+                    "trait": "Ranged Weapon§Krios Battle Tank—Hunter-killer missile"
+                  },
                   {
                     "trait": "Ranged Weapon§Krios Battle Tank—Hunter-killer missile"
                   }
@@ -14647,7 +14898,7 @@
           ]
         },
         "stats": {
-          "Hunter-killer missile": {
+          "2 hunter-killer missiles": {
             "dynamic": true,
             "group": "Loadout",
             "groupOrder": 2,
@@ -14658,6 +14909,9 @@
               "✓": {
                 "order": 1,
                 "traits": [
+                  {
+                    "trait": "Ranged Weapon§Krios Venator—Hunter-killer missile"
+                  },
                   {
                     "trait": "Ranged Weapon§Krios Venator—Hunter-killer missile"
                   }
@@ -14944,7 +15198,7 @@
           ]
         },
         "stats": {
-          "Hunter-killer missile": {
+          "2 hunter-killer missiles": {
             "dynamic": true,
             "group": "Loadout",
             "groupOrder": 2,
@@ -14955,6 +15209,9 @@
               "✓": {
                 "order": 1,
                 "traits": [
+                  {
+                    "trait": "Ranged Weapon§Triaros Armoured Conveyor—Hunter-killer missile"
+                  },
                   {
                     "trait": "Ranged Weapon§Triaros Armoured Conveyor—Hunter-killer missile"
                   }
@@ -15107,6 +15364,25 @@
         },
         "text": "Each time a model in this unit makes an attack, re-roll Wound rolls of 1."
       },
+      "Weapon§Archmagos Prime—Phased plasma-fusil": {
+        "aspects": {
+          "Label": "Phased plasma-fusil"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Archmagos Prime—Phased plasma-fusil — standard",
+            "Ranged Weapon§Archmagos Prime—Phased plasma-fusil — supercharge"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
       "Weapon§Archmagos Prime—Plasma pistol": {
         "aspects": {
           "Label": "Plasma pistol"
@@ -15181,6 +15457,25 @@
           ]
         }
       },
+      "Weapon§Magos Dominus—Phased plasma-fusil": {
+        "aspects": {
+          "Label": "Phased plasma-fusil"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Magos Dominus—Phased plasma-fusil - standard",
+            "Ranged Weapon§Magos Dominus—Phased plasma-fusil - supercharge"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
       "Weapon§Magos Dominus—Plasma pistol": {
         "aspects": {
           "Label": "Plasma pistol"
@@ -15189,6 +15484,25 @@
           "traits": [
             "Ranged Weapon§Magos Dominus—Plasma pistol – standard",
             "Ranged Weapon§Magos Dominus—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Weapon§Myrmidon Secutor—Phased plasma-fusil": {
+        "aspects": {
+          "Label": "Phased plasma-fusil"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil - standard",
+            "Ranged Weapon§Myrmidon Secutor—Phased plasma-fusil - supercharge"
           ]
         },
         "keywords": {
@@ -15315,6 +15629,25 @@
           ]
         }
       },
+      "Weapon§Thallax—Phased plasma-fusil": {
+        "aspects": {
+          "Label": "Phased plasma-fusil"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Thallax—Phased plasma-fusil - standard",
+            "Ranged Weapon§Thallax—Phased plasma-fusil - supercharge"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
       "Weapon§Thanatar-Calix—Graviton ram": {
         "aspects": {
           "Label": "Graviton ram"
@@ -15331,6 +15664,25 @@
           ],
           "Keywords": [
             "Taghmata Omnissiah"
+          ]
+        }
+      },
+      "Weapon§Thanatar-Cavas—Plasma mortar": {
+        "aspects": {
+          "Label": "Plasma mortar"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Thanatar-Cavas—Plasma mortar - standard",
+            "Ranged Weapon§Thanatar-Cavas—Plasma mortar - supercharge"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ],
+          "Tags": [
+            "Multi-weapon"
           ]
         }
       },
