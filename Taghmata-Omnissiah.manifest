@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.2",
+  "revision": "0.9.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3332,6 +3332,7 @@
         "keywords": {
           "Keywords": [
             "Battleline",
+            "Cybertheurgist Auxilia",
             "Imperium",
             "Infantry",
             "Tech-priest"
@@ -3352,6 +3353,371 @@
             "value": 75
           }
         }
+      },
+      "Detachment§Archimandrite": {
+        "rules": {
+          "addAuxiliaKeyword": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Cybertheurgist Adept"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "addCybertheurgy1": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Cybernetica Fortitudo (cybertheurgic rite, adept)"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "stats",
+                    "Cybertheurgy",
+                    "value"
+                  ]
+                ],
+                "value": "Artificia Cybernetica"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "addCybertheurgy2": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Animatus Incumbo (cybertheurgic rite, adept)"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "stats",
+                    "Cybertheurgy",
+                    "value"
+                  ]
+                ],
+                "value": "Artificia Machina"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "addCybertheurgy3": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Ephemera Extrico (cybertheurgic rite, adept)"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "stats",
+                    "Cybertheurgy",
+                    "value"
+                  ]
+                ],
+                "value": "Ephemera Incursus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "addCybertheurgy4": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Ephemera Perfuro (cybertheurgic rite, adept)"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "stats",
+                    "Cybertheurgy",
+                    "value"
+                  ]
+                ],
+                "value": "Ephemera Lacyraemarta"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "addCybertheurgy5": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Artificia Interitus (cybertheurgic rite, adept)"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "traits",
+                    "item",
+                    "Model§Magos Auxilia",
+                    "stats",
+                    "Cybertheurgy",
+                    "value"
+                  ]
+                ],
+                "value": "Artificia Reductor"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Scornful Fire"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Magister Theurgica"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Power of the Machine Spirit"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Superlative Creation"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Establish Command"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Weapons of the Dark Age"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "removeAuxiliaWeakerKeyword": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Tech-Priest Auxilia Covenant",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Cybertheurgist Auxilia"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "text": "**Magos Auxilia** models in **Tech-Priest Auxilia Covenant** units in your army replace the **Cybertheurgist Auxilia** with the **Cybertheurgist Adept** keyword."
       },
       "Detachment§Cybernetica": {
         "rules": {
@@ -3448,6 +3814,239 @@
           }
         },
         "text": "Taghmata Omnissiah units in your army have the Feel No Pain 6+ ability."
+      },
+      "Detachment§Malagra": {
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Scornful Fire"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rhythm of Slaying"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Sinister Puppeteer"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Flensing Data-spikes"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Monster Hunters"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Mercurial Celerity"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "increaseArcuitorLimit": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "ArcuitorMax"
+                  ]
+                ],
+                "value": 3
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 0
+          },
+          "removeArcuitorEyes": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Character§Arcuitor Magisterium",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Eyes of the Omnissiah"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "text": "**Sacred Mission**: Once per phase for each Taghmata Omnissiah unit in your army, you can re-roll one Hit roll, one Wound roll or one Damage roll made for a model in that unit.\n\n**Court of Executioners**: **Arcuitor Magisterium** units in your army lose the Eyes of the Omnissiah ability."
+      },
+      "Detachment§Malefactor Congregation": {
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Scornful Fire"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Anima Mori"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Bitter Death Throes"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Corrosive Paradox"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Galvanised Reserves"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Puncture Real Space"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "text": "At the start of your Command phase, you can select one of the Machinations listed below. Until the start of your next Command phase, that Machination is active and its effects apply to all **Taghmata Omnissiah** units from your army. You can only select each Machination once per battle.\n\n**Surge of Malevolence**: While this Machination  is active, add 1 to the Strength characteristic of weapons equipped by models in **Taghmata Omnissiah** units from your army.\n**Aberrant Occultation**: While this Machination is active, **Taghmata Omnissiah** units from your army have the Stealth ability.\n**Frictionless Phenomena**: While this Machination  is active, ranged weapons equipped by **Taghmata Omnissiah** units from your army have the [ASSAULT] ability."
       },
       "Detachment§Myrmidax": {
         "rules": {
@@ -3654,6 +4253,54 @@
         },
         "text": "Taghmata Omnissiah model only. After both players have deployed their armies and determined who has the first turn, you can select up to three Taghmata Omnissiah units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
+      "Enhancement§Blinding Radiance": {
+        "keywords": {
+          "Keywords": [
+            "Archimandrite"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Taghmata Omnissiah model only. In your Shooting phase, after the bearer’s unit has shot, select one enemy unit hit by one or more of the attacks made by the bearer: until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+      },
+      "Enhancement§Bonds of Vassalage": {
+        "keywords": {
+          "Keywords": [
+            "Archimandrite"
+          ]
+        },
+        "rules": {
+          "removeArchmagos": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Archmagos"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 0
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "Taghmata Omnissiah model only. The bearer loses the Archmagos keyword."
+      },
       "Enhancement§Combat Augment Array": {
         "keywords": {
           "Keywords": [
@@ -3666,6 +4313,19 @@
           }
         },
         "text": "Taghmata Omnissiah model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead."
+      },
+      "Enhancement§Curse of the Magi": {
+        "keywords": {
+          "Keywords": [
+            "Malefactor Congregation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Taghmata Omnissiah model only. Once per turn when an enemy unit within 18\" of the bearer's unit targets the bearer's unit, that enemy unit's ranged weapons have the [HAZARDOUS] ability."
       },
       "Enhancement§Cyber-familiar": {
         "keywords": {
@@ -3680,6 +4340,32 @@
         },
         "text": "Taghmata Omnissiah model only. You can re-roll Advance and Charge rolls made for the bearer’s unit and you can re-roll Leadership, Battle-shock, Desperate Escape and Hazardous tests made for the bearer’s unit."
       },
+      "Enhancement§Cyber-occularis": {
+        "keywords": {
+          "Keywords": [
+            "Malagra"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "Taghmata Omnissiah model only. In your Shooting phase you can select one enemy unit within 12” of and visible to the bearer. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+      },
+      "Enhancement§Dread Rites": {
+        "keywords": {
+          "Keywords": [
+            "Malefactor Congregation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "Taghmata Omnissiah model only. You can re-roll Battle-shock tests taken for the bearer’s unit. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer’s unit must take a Battle-shock test."
+      },
       "Enhancement§Electroleech Syphon": {
         "keywords": {
           "Keywords": [
@@ -3692,6 +4378,45 @@
           }
         },
         "text": "Taghmata Omnissiah model only. At the end of your Movement phase the bearer can use this Enhancement. If it does, select one enemy unit within 9” of the bearer’s unit and visible to the bearer’s unit, that enemy unit suffers D3 mortal wounds, then roll one D6: on a 3+ you gain 1CP."
+      },
+      "Enhancement§Interfector Techno-arcana": {
+        "keywords": {
+          "Keywords": [
+            "Malagra"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "Taghmata Omnissiah model only. Models in the bearer’s unit have the Scouts 7” ability."
+      },
+      "Enhancement§Legio Teleportarium": {
+        "keywords": {
+          "Keywords": [
+            "Archimandrite"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Taghmata Omnissiah model only. Models in the bearer’s unit have the Deep Strike ability."
+      },
+      "Enhancement§Logic of Victory": {
+        "keywords": {
+          "Keywords": [
+            "Archimandrite"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. During your opponent’s turn, each time a model in the bearer’s unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       "Enhancement§Manos Ruinus": {
         "assets": {
@@ -3780,6 +4505,19 @@
         },
         "text": "Taghmata Omnissiah model only. The bearer is equipped the following weapon — Manos Ruinus."
       },
+      "Enhancement§Mech-assassin": {
+        "keywords": {
+          "Keywords": [
+            "Malagra"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Taghmata Omnissiah model only. The bearer’s ranged weapons have the [PRECISION] ability."
+      },
       "Enhancement§Nanyte Blaster": {
         "keywords": {
           "Keywords": [
@@ -3819,6 +4557,19 @@
         },
         "text": "Taghmata Omnissiah model only. Once per battle in your Shooting phase the bearer can use this Enhancement. If it does, select one enemy Transport model within 12\" of and visible to the bearer, any units embarked within that Transport model must immediately disembark as if that Transport model has been destroyed."
       },
+      "Enhancement§Precognitive Cogitation": {
+        "keywords": {
+          "Keywords": [
+            "Malefactor Congregation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "Taghmata Omnissiah model only. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      },
       "Enhancement§Predictive Augury": {
         "keywords": {
           "Keywords": [
@@ -3845,6 +4596,19 @@
         },
         "text": "Taghmata Omnissiah model only.\n• Add 3 to the bearer’s Wounds characteristic.\n• At the end of every Fight phase in which the bearer’s unit was selected to fight, improve the Strength and Attacks characteristics of the bearer’s melee weapons by 2 until the end of the battle."
       },
+      "Enhancement§Scindex-malagrus": {
+        "keywords": {
+          "Keywords": [
+            "Malagra"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Taghmata Omnissiah model only. The bearer’s melee weapons have the [ANTI-CHARACTER 5+] ability, and add 1 to the Damage characteristics of melee weapons equipped by the bearer."
+      },
       "Enhancement§Void Shield Harness": {
         "keywords": {
           "Keywords": [
@@ -3870,6 +4634,19 @@
           }
         },
         "text": "Taghmata Omnissiah model only. Models in the bearer’s unit have the Stealth ability. In addition, each time a ranged attack is allocated to a model in the bearer’s unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks."
+      },
+      "Enhancement§Xenoculum": {
+        "keywords": {
+          "Keywords": [
+            "Malefactor Congregation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "Taghmata Omnissiah model only. In your Command phase, select one enemy unit within 18\" of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
       },
       "Infantry/Mounted§Adsecularis Tech-thralls Covenant": {
         "allowed": {
@@ -13949,6 +14726,30 @@
                     "trait": "Detachment§Reductor"
                   }
                 ]
+              },
+              "Malagra": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Detachment§Malagra"
+                  }
+                ]
+              },
+              "Archimandrite": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Detachment§Archimandrite"
+                  }
+                ]
+              },
+              "Malefactor Congregation": {
+                "order": 5,
+                "traits": [
+                  {
+                    "trait": "Detachment§Malefactor Congregation"
+                  }
+                ]
               }
             },
             "value": "Myrmidax"
@@ -13966,6 +14767,79 @@
             "value": "Taghmata Omnissiah"
           }
         }
+      },
+      "Stratagem§Anima Mori": {
+        "keywords": {
+          "Phase": [
+            "Any"
+          ],
+          "Category": [
+            "Epic Deed"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Malefactor Congregation",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Any phase.\n\n**TARGET**: One **Taghmata Omnissiah Character** model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT**: At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining.\n\n**RESTRICTIONS**: Each model can only be targeted with this Stratagem once per battle."
+      },
+      "Stratagem§Bitter Death Throes": {
+        "keywords": {
+          "Phase": [
+            "Any"
+          ],
+          "Category": [
+            "Epic Deed"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Malefactor Congregation",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Any phase, just after a Taghmata Omnissiah model from your army with the Deadly Demise ability is destroyed.\n\n**TARGET**: That destroyed model, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT**: Your model can make a Normal or Fall Back move ignoring the rules for Unit Coherency before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your model can move over enemy units (excluding **Monsters** and **Vehicles**) as if they were not there."
+      },
+      "Stratagem§Corrosive Paradox": {
+        "keywords": {
+          "Phase": [
+            "Shooting",
+            "Fight"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Malefactor Congregation",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit makes an attack, wounds lost as a result of that attack cannot be ignored using any abilities."
       },
       "Stratagem§Death of Flesh": {
         "keywords": {
@@ -14015,6 +14889,29 @@
         },
         "text": "**WHEN**: Your opponent’s Shooting phase, when a saving throw is failed for a Taghmata Omnissiah Vehicle model from your army.\n\n**TARGET**: That Vehicle model.\n\n**EFFECT**: Change the Damage characteristic of that attack to 0."
       },
+      "Stratagem§Establish Command": {
+        "keywords": {
+          "Phase": [
+            "Movement"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Keywords": [
+            "Archimandrite",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One **Taghmata Omnissiah Infantry** unit from your army within range of an objective marker you control.\n\n**EFFECT**: That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      },
       "Stratagem§Exultation of War": {
         "keywords": {
           "Keywords": [
@@ -14040,6 +14937,53 @@
         },
         "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
       },
+      "Stratagem§Flensing Data-spikes": {
+        "keywords": {
+          "Phase": [
+            "Fight"
+          ],
+          "Category": [
+            "Wargear"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Cybernetica",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit (excluding **Vehicle** units) from your army and one enemy unit it is within Engagement Range of.\n\n**EFFECT**: Roll one D6 for each model in your unit that is within Engagement Range of that enemy unit (to a maximum of 6D6): for each 4+, that enemy unit suffers 1 mortal wound."
+      },
+      "Stratagem§Galvanised Reserves": {
+        "keywords": {
+          "Phase": [
+            "Command"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Keywords": [
+            "Malefactor Congregation",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army.\n\n**EFFECT**: Select one Machination, even if you have already selected that Machination this battle. Until the start of your next Command phase, that Machination is active for your unit instead of any other Machination that is active for your army."
+      },
       "Stratagem§Machine Superiority": {
         "keywords": {
           "Phase": [
@@ -14063,6 +15007,78 @@
           }
         },
         "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah Automata** unit from your army.\n\n**EFFECT**: Until the end of the phase, your unit has the Fights First ability."
+      },
+      "Stratagem§Magister Theurgica": {
+        "keywords": {
+          "Phase": [
+            "Any"
+          ],
+          "Category": [
+            "Epic Deed"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Archimandrite",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Start of any phase.\n\n**TARGET**: One **Taghmata Omnissiah Magos Dominus** or **Master Cybertheurgist** model from your army that hasn’t attempted to use a [CYBERTHEURGIC RITE] ability during this battle round.\n\n**EFFECT**: Until the end of the phase that model gains abilities from all Cybertheurgy specialisations."
+      },
+      "Stratagem§Mercurial Celerity": {
+        "keywords": {
+          "Phase": [
+            "Movement"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Keywords": [
+            "Malagra",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: Up to two **Taghmata Omnissiah Infantry** or **Beasts** units from your army that are within 9\" of that enemy unit.\n\n**EFFECT**: Your units can make a Normal move of up to 6\".\n\n**RESTRICTIONS**: You cannot select units that are within Engagement Range of one or more enemy units. You can only select two units if one (and only one) of them is an **Arcuitor Magisterium**."
+      },
+      "Stratagem§Monster Hunters": {
+        "keywords": {
+          "Phase": [
+            "Shooting",
+            "Fight"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Cybernetica",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase weapons equipped by models in your unit have the selected ability."
       },
       "Stratagem§Mysteries of Shot and Shell": {
         "keywords": {
@@ -14109,6 +15125,53 @@
           }
         }
       },
+      "Stratagem§Power of the Machine Spirit": {
+        "keywords": {
+          "Phase": [
+            "Command"
+          ],
+          "Category": [
+            "Epic Deed"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Keywords": [
+            "Archimandrite",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One **Taghmata Omnissiah Vehicle** model from your army.\n\n**EFFECT**: Until the start of your next Command phase, each time that model makes an attack, add 1 to the hit roll and when making ranged attacks with that model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, that model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+      },
+      "Stratagem§Puncture Real Space": {
+        "keywords": {
+          "Phase": [
+            "Movement",
+            "Charge"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Keywords": [
+            "Malefactor Congregation",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Movement phase or your Charge phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to move or charge this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features as if they were not there."
+      },
       "Stratagem§Rad-purge Protocol": {
         "keywords": {
           "Keywords": [
@@ -14131,6 +15194,30 @@
           }
         },
         "text": "**WHEN**: Your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound."
+      },
+      "Stratagem§Rhythm of Slaying": {
+        "keywords": {
+          "Phase": [
+            "Fight"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Malagra",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: End of the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah Infantry** or **Beasts** unit from your army that was eligible to fight this phase.\n\n**EFFECT**: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal Move of up to 6”. Otherwise it can make a Fall Back move. It cannot embark within a **Transport** at the end of this move if it disembarked from a **Transport** this turn. If the targeted unit is an **Arcuitor Magisterium**, you can remove it from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Rite of Immolation": {
         "keywords": {
@@ -14214,7 +15301,12 @@
             "Opponent’s"
           ],
           "Keywords": [
+            "Archimandrite",
             "Cybernetica",
+            "Malagra",
+            "Malefactor Congregation",
+            "Myrmidax",
+            "Reductor",
             "Taghmata Omnissiah"
           ]
         },
@@ -14273,6 +15365,31 @@
         },
         "text": "**WHEN**: In any phase, just after a model from your army failed a Leadership test\n\n**TARGET**: That model.\n\n**EFFECT**: Until the end of the phase, you can ignore modifiers to that model’s Leadership characteristic and you can re-roll that test."
       },
+      "Stratagem§Sinister Puppeteer": {
+        "keywords": {
+          "Phase": [
+            "Shooting",
+            "Fight"
+          ],
+          "Category": [
+            "Epic Deed"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Malagra",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Taghmata Omnissiah Character** unit from your army that was selected as the target of one or more of that enemy unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time a **Character** model in your unit would lose a wound, select one friendly **Taghmata Omnissiah** unit within 3\" of it (excluding Vehicle units). Your **Character** model does not lose that wound and that selected unit suffers one mortal wound instead (that mortal wound cannot be ignored using any abilities)."
+      },
       "Stratagem§Souls of Cold Iron": {
         "keywords": {
           "Keywords": [
@@ -14322,6 +15439,31 @@
         },
         "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
       },
+      "Stratagem§Superlative Creation": {
+        "keywords": {
+          "Phase": [
+            "Shooting",
+            "Fight"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Archimandrite",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+      },
       "Stratagem§Thrice-blessed Downpour": {
         "keywords": {
           "Keywords": [
@@ -14344,6 +15486,31 @@
           }
         },
         "text": "**WHEN**: Your opponent’s Command phase.\n\n**TARGET**: One objective marker.\n\n**EFFECT**: That objective marker is under bombardment. While an objective marker is under bombardment, at the end of every turn every unit within 3” of that objective marker suffers D3 mortal wounds. Afterwards, roll one D6: on a 4+ that objective marker is no longer under bombardment."
+      },
+      "Stratagem§Weapons of the Dark Age": {
+        "keywords": {
+          "Phase": [
+            "Shooting",
+            "Fight"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Archimandrite",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
       },
       "Vehicle§Karacnos Assault Tank": {
         "assets": {
