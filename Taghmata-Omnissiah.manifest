@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.6",
+  "revision": "0.9.7",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -12330,17 +12330,6 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "3+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
                   "value": "monster"
                 },
                 "x": {
@@ -12376,7 +12365,7 @@
             "value": 72
           },
           "S": {
-            "value": 6
+            "value": 7
           }
         }
       },
