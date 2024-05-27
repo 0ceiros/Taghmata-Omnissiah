@@ -12326,17 +12326,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "monster"
-                },
-                "x": {
-                  "value": "3+"
-                }
-              }
-            },
             "Ability§Torrent"
           ]
         },
