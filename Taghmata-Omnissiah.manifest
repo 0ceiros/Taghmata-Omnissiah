@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.4",
+  "revision": "0.9.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9294,7 +9294,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 4
           }
         }
       },
@@ -9472,7 +9472,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 4
           }
         }
       },
@@ -9520,7 +9520,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 5
           }
         }
       },
@@ -11325,7 +11325,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 4
           }
         }
       },
@@ -11741,7 +11741,7 @@
             "value": 24
           },
           "S": {
-            "value": 3
+            "value": 5
           }
         }
       },
@@ -12027,7 +12027,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 5
           }
         }
       },
@@ -12181,7 +12181,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 4
           }
         }
       },
@@ -12505,7 +12505,7 @@
             "value": 18
           },
           "S": {
-            "value": 3
+            "value": 4
           }
         }
       },
