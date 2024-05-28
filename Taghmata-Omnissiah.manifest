@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.7",
+  "revision": "0.9.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -15805,7 +15805,7 @@
             "value": 8
           },
           "Points": {
-            "value": 175
+            "value": 170
           },
           "selected weapons": {
             "statType": "numeric",
