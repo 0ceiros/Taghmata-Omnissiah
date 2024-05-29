@@ -718,7 +718,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase, just after selecting a target for this model’s sonic destructor, draw a line between the closest point of this model’s hull and that of the closest visible model in the target unit extending the line up to 72”, then roll one D6 for every unit that is within 3\" of the line and visible to this model excluding this model’s unit and the target unit: on a 3+, the unit being rolled for is struck by a sonic wave. After this model has finished making its attacks against the target unit this phase, make attacks against every unit struck by a sonic wave using this model’s sonic destructor. Those attacks do not trigger this ability."
+        "text": "In your Shooting phase, just after selecting a target for this model’s sonic destructor, draw a line between the closest point of this model’s hull and that of the closest visible model in the target unit extending the line up to 72”, then roll one D6 for every unit that is within 3\" of the line and visible to this model excluding this model’s unit: on a 3+, the unit being rolled for is struck by a sonic wave. After this model has finished making its attacks against the target unit this phase, each unit struck by a sonic wave suffers D6 mortal wounds."
       },
       "Ability§Stataraga High Techno-arcana": {
         "keywords": {
@@ -6918,7 +6918,7 @@
         },
         "stats": {
           "A": {
-            "value": 8
+            "value": 6
           },
           "AP": {
             "value": -1
