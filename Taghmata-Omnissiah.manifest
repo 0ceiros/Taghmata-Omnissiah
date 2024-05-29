@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.8",
+  "revision": "0.9.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -15069,7 +15069,8 @@
           "Command Cost": {
             "value": 1
           }
-        }
+        },
+        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot this phase and one enemy unit visible to it and another **Taghmata Omnissiah** unit from your army.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit can ignore any or all modifiers to their Hit rolls and have the [IGNORES COVER] ability when making attacks against that enemy unit."
       },
       "Stratagem§Power of the Machine Spirit": {
         "keywords": {
