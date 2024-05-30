@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "0.9.9",
+  "revision": "1.0.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -456,7 +456,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit."
       },
       "Ability§Hatred": {
         "keywords": {
