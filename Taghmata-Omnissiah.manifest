@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.0",
+  "revision": "1.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -380,7 +380,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the end of your Movement phase. Until the start of your next Command phase, while a friendly Taghmata Omnissiah unit is within 6\" of this model, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
+        "text": "You can use this ability at the end of your Movement phase. Until the start of your next Command phase, while a friendly Taghmata Omnissiah unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds."
       },
       "Ability§Ephemera Extrico (cybertheurgic rite, adept)": {
         "keywords": {
