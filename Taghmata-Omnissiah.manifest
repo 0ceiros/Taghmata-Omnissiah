@@ -472,7 +472,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Each time a Hazardous test is failed for a weapon equipped by a model in this unit, that model suffers 3 mortal wounds instead of being destroyed."
+        "text": "For the purposes of resolving failed Hazardous tests, models in this unit count as Monsters."
       },
       "Ability§Immovable Automata": {
         "keywords": {
