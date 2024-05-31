@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.1",
+  "revision": "1.0.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -472,7 +472,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Each time a 1 is rolled for a Hazardous test for a weapon used by a model in this unit, this unit suffers 3 mortal wounds instead of a model being destroyed."
+        "text": "Each time a Hazardous test is failed for a weapon equipped by a model in this unit, that model suffers 3 mortal wounds instead of being destroyed."
       },
       "Ability§Immovable Automata": {
         "keywords": {
