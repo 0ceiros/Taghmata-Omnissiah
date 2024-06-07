@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.4",
+  "revision": "1.0.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -395,7 +395,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the end of your turn targeting one friendly non-Vehicle Taghmata Omnissiah unit within 6”. Models in that unit can be moved up to 6” and must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of enemy units."
+        "text": "You can use this ability at the start or end of your Movement phase targeting one friendly non-Vehicle Taghmata Omnissiah unit within 12”. Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
       },
       "Ability§Ephemera Maledictio (cybertheurgic rite, master)": {
         "keywords": {
@@ -1712,7 +1712,7 @@
             "value": 1
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Sv": {
             "value": 3
