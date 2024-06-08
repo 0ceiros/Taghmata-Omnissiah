@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.5",
+  "revision": "1.0.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -4381,7 +4381,7 @@
             "value": 30
           }
         },
-        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. During your opponent’s turn, each time a model in the bearer’s unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll."
+        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. Once per turn, during your opponent’s Charge phase, just after an enemy unit declares a charge targeting the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to 3\"."
       },
       "Enhancement§Manos Ruinus": {
         "assets": {
