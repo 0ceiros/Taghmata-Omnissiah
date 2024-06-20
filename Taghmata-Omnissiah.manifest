@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.6",
+  "revision": "1.0.7",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -437,7 +437,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Once per battle, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+        "text": "Once per battle round, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
       },
       "Ability§Greuso Protocol": {
         "keywords": {
@@ -4867,7 +4867,6 @@
             },
             "Ability§Masters of Technology",
             "Ability§Savants of Firepower",
-            "Ability§Huge Bulk",
             "Model§Destructor Lord"
           ]
         },
@@ -5156,7 +5155,6 @@
                 }
               }
             },
-            "Ability§Huge Bulk",
             "Ability§Hatred"
           ]
         },
