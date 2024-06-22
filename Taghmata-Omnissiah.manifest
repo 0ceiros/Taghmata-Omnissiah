@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.7",
+  "revision": "1.0.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -15042,7 +15042,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
+        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in your unit and each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
       },
       "Stratagem§Networked Sensorium Protocols": {
         "keywords": {
