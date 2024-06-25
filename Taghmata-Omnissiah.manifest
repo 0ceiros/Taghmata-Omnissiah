@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.0.8",
+  "revision": "1.0.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -15229,7 +15229,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Your unit can be moved up to 6”, but must finish that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models in your unit can be moved within Engagement Range of that enemy unit."
+        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Roll one D6: your unit can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, models in your unit can be moved within Engagement Range of that enemy unit."
       },
       "Stratagem§Scornful Fire": {
         "keywords": {
