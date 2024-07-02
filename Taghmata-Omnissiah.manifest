@@ -512,7 +512,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability, Scyllax models in this unit gain the Feel No Pain 6+ ability. Models in this unit that already had the Feel No Pain ability instead add 1 to Feel No Pain rolls."
+        "text": "Tech-thrall models in this unit gain the Feel No Pain 4+ ability. Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability. Scyllax models in this unit gain the Feel No Pain 6+ ability."
       },
       "Ability§Line-breakers": {
         "keywords": {
@@ -16455,7 +16455,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability, Scyllax models in this unit gain the Feel No Pain 6+ ability. Models in this unit that already had the Feel No Pain ability instead improve their Feel No Pain ability by one (to a maximum of Feel No Pain 4+)."
+        "text": "Tech-thrall models in this unit gain the Feel No Pain 4+ ability. Tech-priests and Servo-automata models in this unit gain the Feel No Pain 5+ ability. Scyllax models in this unit gain the Feel No Pain 6+ ability."
       },
       "Wargear§Omnispex": {
         "keywords": {
