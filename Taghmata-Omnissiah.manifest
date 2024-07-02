@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.1",
+  "revision": "1.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1712,7 +1712,7 @@
             "value": 1
           },
           "Points": {
-            "value": 140
+            "value": 130
           },
           "Sv": {
             "value": 3
@@ -4381,7 +4381,7 @@
             "value": 30
           }
         },
-        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. Once per turn, during your opponent’s Charge phase, just after an enemy unit declares a charge targeting the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to 3\"."
+        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. Once per turn, during your opponent’s Charge phase, just after an enemy unit declares a charge targeting the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to 3\" (it cannot embark within a Transport at the end of this move)."
       },
       "Enhancement§Manos Ruinus": {
         "assets": {
@@ -15257,7 +15257,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah Character** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Your **Taghmata Omnissiah Character** unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.\n\n**RESTRICTIONS**: Each time a model in your unit makes a ranged attack, an unmodified Hit roll of 5+ is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers."
+        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.\n\n**TARGET**: One **Taghmata Omnissiah Character** unit from your army that is within 24\" of the attacking enemy unit and that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Your **Taghmata Omnissiah Character** unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.\n\n**RESTRICTIONS**: Until the end of the phase, each time a model in your unit makes a ranged attack, unmodified Hit rolls of 1-3 fail to hit."
       },
       "Stratagem§Secrets of Annihilation": {
         "keywords": {
