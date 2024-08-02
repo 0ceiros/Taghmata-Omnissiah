@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.2",
+  "revision": "1.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -763,7 +763,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Each time a model in this unit makes an attack, if the target of that attack is within range of an objective marker, re-roll Hit rolls of 1."
+        "text": "Each time a model in this unit makes an attack, if this unit or the target of that attack is within range of an objective marker, re-roll Hit rolls of 1."
       },
       "Automata§Arlatax Battle-automata Maniple": {
         "allowed": {
@@ -3778,7 +3778,7 @@
             "failState": "pass"
           }
         },
-        "text": "Taghmata Omnissiah units in your army have the Feel No Pain 6+ ability."
+        "text": "**Taghmata Omnissiah** units in your army have the Feel No Pain 6+ ability."
       },
       "Detachment§Malagra": {
         "rules": {
@@ -3915,7 +3915,7 @@
             "failState": "pass"
           }
         },
-        "text": "**Sacred Mission**: Once per phase for each Taghmata Omnissiah unit in your army, you can re-roll one Hit roll, one Wound roll or one Damage roll made for a model in that unit.\n\n**Court of Executioners**: **Arcuitor Magisterium** units in your army lose the Eyes of the Omnissiah ability."
+        "text": "**Sacred Mission**: Once per phase for each **Taghmata Omnissiah** unit in your army, you can re-roll one Hit roll, one Wound roll or one Damage roll made for a model in that unit.\n\n**Court of Executioners**: **Arcuitor Magisterium** units in your army lose the Eyes of the Omnissiah ability."
       },
       "Detachment§Malefactor Congregation": {
         "rules": {
@@ -4011,7 +4011,7 @@
             "failState": "pass"
           }
         },
-        "text": "At the start of your Command phase, you can select one of the Machinations listed below. Until the start of your next Command phase, that Machination is active and its effects apply to all **Taghmata Omnissiah** units from your army. You can only select each Machination once per battle.\n\n**Surge of Malevolence**: While this Machination  is active, add 1 to the Strength characteristic of weapons equipped by models in **Taghmata Omnissiah** units from your army.\n**Aberrant Occultation**: While this Machination is active, **Taghmata Omnissiah** units from your army have the Stealth ability.\n**Frictionless Phenomena**: While this Machination  is active, ranged weapons equipped by **Taghmata Omnissiah** units from your army have the [ASSAULT] ability."
+        "text": "At the start of your Command phase, you can select one of the Machinations listed below. Until the start of your next Command phase, that Machination is active and its effects apply to all **Taghmata Omnissiah** units from your army. You can only select each Machination once per battle.\n\n**Surge of Malevolence**: While this Machination  is active, add 1 to the Strength characteristic of weapons equipped by models in **Taghmata Omnissiah** units from your army.\n\n**Aberrant Occultation**: While this Machination is active, **Taghmata Omnissiah** units from your army have the Stealth ability.\n\n**Frictionless Phenomena**: While this Machination  is active, ranged weapons equipped by **Taghmata Omnissiah** units from your army have the [ASSAULT] ability and add 1 to Advance and Charge rolls made for Taghmata Omnissiah units from your army."
       },
       "Detachment§Myrmidax": {
         "rules": {
@@ -4107,7 +4107,7 @@
             "failState": "pass"
           }
         },
-        "text": "Each time a Taghmata Omnissiah model from your army makes a melee attack, if it made a charge move or was charged this turn, add 1 to that attack’s Wound roll."
+        "text": "Each time a **Taghmata Omnissiah** model from your army makes a melee attack, if it made a charge move or was charged this turn, add 1 to that attack’s Wound roll."
       },
       "Detachment§Reductor": {
         "rules": {
@@ -4203,7 +4203,7 @@
             "failState": "pass"
           }
         },
-        "text": "Each time a Taghmata Omnissiah model from your army makes an attack, on an unmodified wound roll of 6, improve the Armour Penetration characteristic of that attack by 1."
+        "text": "Each time a **Taghmata Omnissiah** model from your army makes an attack, on an unmodified wound roll of 6, improve the Armour Penetration characteristic of that attack by 1.\n\nEach time a **Taghmata Omnissiah** model from your army makes an attack using a weapon with a [LETHAL HITS] ability, on a Critical Hit, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Enhancement§Archeotech Holo-projector": {
         "keywords": {
