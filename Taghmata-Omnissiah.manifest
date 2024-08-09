@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.4",
+  "revision": "1.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -437,7 +437,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "Once per battle round, one Automata unit from your army within 12” of this model can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+        "text": "Once per battle round, one friendly Automata unit within 12\" of one or more models with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
       },
       "Ability§Greuso Protocol": {
         "keywords": {
@@ -477,7 +477,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "While this unit is within range of an objective marker, each time an attack with a Damage characteristic of 1 is allocated to a model in this unit, add 1 to any armour saving throw made against that attack."
+        "text": "Each time an attack with a Damage characteristic of 1 is allocated to a model in this unit, add 1 to any armour saving throw made against that attack."
       },
       "Ability§Invulnerable (ranged only)": {
         "keywords": {
@@ -912,25 +912,25 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 165
+            "value": 160
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 250
+            "value": 240
           },
           "model3rdTally": {
             "value": 3
           },
           "model4thCost": {
-            "value": 420
+            "value": 400
           },
           "model4thTally": {
             "value": 5
           },
           "Points": {
-            "value": 85
+            "value": 80
           }
         }
       },
@@ -4216,7 +4216,7 @@
             "value": 30
           }
         },
-        "text": "Taghmata Omnissiah model only. After both players have deployed their armies and determined who has the first turn, you can select up to three Taghmata Omnissiah units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "Taghmata Omnissiah model only. After both players have deployed their armies, you can select up to three Taghmata Omnissiah units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       "Enhancement§Blinding Radiance": {
         "keywords": {
@@ -4329,7 +4329,7 @@
             "value": 10
           }
         },
-        "text": "Taghmata Omnissiah model only. You can re-roll Battle-shock tests taken for the bearer’s unit. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer’s unit must take a Battle-shock test."
+        "text": "Taghmata Omnissiah model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer’s unit must take a Battle-shock test. While an enemy unit is within 6\" of the bearer’s unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test."
       },
       "Enhancement§Electroleech Syphon": {
         "keywords": {
@@ -10348,16 +10348,7 @@
           "Label": "Bolter"
         },
         "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
+          "traits": []
         },
         "keywords": {
           "Keywords": [
@@ -10366,7 +10357,7 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "value": 2
           },
           "AP": {
             "value": 0
@@ -10485,7 +10476,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "keywords": {
@@ -10566,9 +10558,6 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Heavy"
-            },
-            {
               "item": "Ability§Melta",
               "stats": {
                 "x": {
@@ -10591,7 +10580,7 @@
             "value": -4
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
             "statType": "term",
