@@ -3838,7 +3838,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Flensing Data-spikes"
+                "value": "Stratagem§Deconstruction Confirmed"
               },
               {
                 "actionType": "add",
@@ -14793,6 +14793,30 @@
         },
         "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack against a non-**Vehicle** unit, re-roll Hit rolls and Wound rolls of 1."
       },
+      "Stratagem§Deconstruction Confirmed": {
+        "keywords": {
+          "Phase": [
+            "Fight"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Keywords": [
+            "Cybernetica",
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 0
+          }
+        },
+        "text": "**WHEN**: In any phase just after a **Character** unit from your army destroys an enemy **Character** model.\n\n**EFFECT**: You gain 1 CP (CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1)."
+      },
       "Stratagem§Defence Sentinel Intercept": {
         "keywords": {
           "Keywords": [
@@ -14863,30 +14887,6 @@
           }
         },
         "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Taghmata Omnissiah** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
-      },
-      "Stratagem§Flensing Data-spikes": {
-        "keywords": {
-          "Phase": [
-            "Fight"
-          ],
-          "Category": [
-            "Wargear"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Keywords": [
-            "Cybernetica",
-            "Taghmata Omnissiah"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah** unit (excluding **Vehicle** units) from your army and one enemy unit it is within Engagement Range of.\n\n**EFFECT**: Roll one D6 for each model in your unit that is within Engagement Range of that enemy unit (to a maximum of 6D6): for each 4+, that enemy unit suffers 1 mortal wound."
       },
       "Stratagem§Galvanised Reserves": {
         "keywords": {
