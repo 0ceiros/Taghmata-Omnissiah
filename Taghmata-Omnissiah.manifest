@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.5",
+  "revision": "1.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -830,19 +830,19 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 250
+            "value": 240
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 375
+            "value": 360
           },
           "model3rdTally": {
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 120
           }
         }
       },
@@ -3176,7 +3176,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 50
           },
           "Ranged Options": {
             "dynamic": true,
