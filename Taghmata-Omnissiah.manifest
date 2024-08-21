@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.7",
+  "revision": "1.1.8",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5291,13 +5291,13 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 240
+            "value": 230
           },
           "model2ndTally": {
             "value": 20
           },
           "Points": {
-            "value": 120
+            "value": 115
           },
           "Secutarii Hoplite": {
             "max": 19,
@@ -5395,13 +5395,13 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 260
+            "value": 250
           },
           "model2ndTally": {
             "value": 20
           },
           "Points": {
-            "value": 130
+            "value": 125
           },
           "Secutarii Peltast": {
             "max": 19,
@@ -5861,7 +5861,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -2
@@ -5903,7 +5903,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -2
@@ -5930,7 +5930,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": 0
@@ -5975,7 +5975,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -1
@@ -6046,7 +6046,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -2
@@ -6073,7 +6073,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -2
@@ -6395,7 +6395,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -2
@@ -6692,7 +6692,7 @@
         },
         "stats": {
           "A": {
-            "value": 2
+            "value": 3
           },
           "AP": {
             "value": -2
@@ -7022,7 +7022,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": -1
