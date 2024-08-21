@@ -13075,14 +13075,6 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            },
-            {
               "item": "Ability§Twin-linked"
             }
           ]
@@ -13094,7 +13086,7 @@
         },
         "stats": {
           "A": {
-            "value": 2
+            "value": 4
           },
           "AP": {
             "value": 0
@@ -13119,9 +13111,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Heavy"
-            }
+            "Ability§Lethal Hits"
           ]
         },
         "keywords": {
