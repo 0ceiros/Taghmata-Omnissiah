@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.1.9",
+  "revision": "1.2.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2392,7 +2392,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 95
           },
           "Sv": {
             "value": 3
@@ -5103,13 +5103,13 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 410
+            "value": 375
           },
           "model2ndTally": {
             "value": 5
           },
           "model3rdCost": {
-            "value": 480
+            "value": 450
           },
           "model3rdTally": {
             "value": 6
@@ -5123,7 +5123,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 240
+            "value": 225
           }
         }
       },
@@ -7989,7 +7989,7 @@
             "value": 5
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Sv": {
             "value": 3
@@ -8270,7 +8270,7 @@
             "value": 5
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Sv": {
             "value": 3
@@ -8302,7 +8302,7 @@
             "value": 5
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Shoulder Options 1": {
             "dynamic": true,
@@ -8742,7 +8742,7 @@
             "value": 5
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Shoulder Options 1": {
             "dynamic": true,
@@ -11880,9 +11880,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Heavy"
-            },
             "Ability§Conversion",
             {
               "item": "Ability§Sustained Hits",
@@ -11907,7 +11904,7 @@
             "value": -2
           },
           "BS": {
-            "value": 3
+            "value": 2
           },
           "D": {
             "value": 3
@@ -12083,9 +12080,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Heavy"
-            },
             {
               "item": "Ability§Devastating Wounds"
             }
