@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.2.0",
+  "revision": "1.2.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -912,25 +912,25 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 160
+            "value": 165
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 240
+            "value": 245
           },
           "model3rdTally": {
             "value": 3
           },
           "model4thCost": {
-            "value": 400
+            "value": 410
           },
           "model4thTally": {
             "value": 5
           },
           "Points": {
-            "value": 80
+            "value": 85
           }
         }
       },
@@ -10465,7 +10465,7 @@
       },
       "Ranged Weapon§Castellax—Mauler bolt cannon": {
         "aspects": {
-          "Label": "Mauler bolt cannon"
+          "Label": "Castellax mauler bolt cannon"
         },
         "assets": {
           "traits": [
@@ -10473,7 +10473,7 @@
               "item": "Ability§Sustained Hits",
               "stats": {
                 "x": {
-                  "value": "1"
+                  "value": "2"
                 }
               }
             },
