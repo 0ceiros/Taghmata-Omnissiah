@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.2.1",
+  "revision": "1.2.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -635,7 +635,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can shoot again using only its plasma mortar. If it does, after this unit has finished making its attacks it suffers D6 mortal wounds and cannot shoot until the end of the turn."
+        "text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can shoot again using only its plasma mortar. If it does, after this unit has finished making its attacks it suffers D3 mortal wounds and cannot shoot until the end of the turn."
       },
       "Ability§Recalculate Priority": {
         "keywords": {
@@ -707,7 +707,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Shooting phase, after this unit has shot, if an enemy unit was wounded by one or more attacks made by this unit’s sollex heavy-las this phase, until the end of your opponent’s next turn, that enemy unit is shock pulsed. While a unit is shock pulsed, worsen the Ballistic Skill characteristic of ranged weapons equipped by models in that enemy unit by 1."
+        "text": "In your Shooting phase, after this unit has shot, if an enemy unit was hit by one or more attacks made by this unit’s sollex heavy-las this phase, until the end of your opponent’s next turn, that enemy unit is shock pulsed. While a unit is shock pulsed, worsen the Ballistic Skill characteristic of ranged weapons equipped by models in that enemy unit by 1."
       },
       "Ability§Sonic Wave": {
         "keywords": {
@@ -830,19 +830,19 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 240
+            "value": 230
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 360
+            "value": 345
           },
           "model3rdTally": {
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 115
           }
         }
       },
@@ -1000,19 +1000,19 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 230
+            "value": 220
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 345
+            "value": 330
           },
           "model3rdTally": {
             "value": 3
           },
           "Points": {
-            "value": 115
+            "value": 110
           }
         }
       },
@@ -1426,7 +1426,7 @@
             "value": 4
           },
           "Points": {
-            "value": 235
+            "value": 230
           },
           "Sv": {
             "value": 2
@@ -5519,13 +5519,13 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 250
+            "value": 240
           },
           "model2ndTally": {
             "value": 6
           },
           "Points": {
-            "value": 125
+            "value": 120
           },
           "Thallax": {
             "max": 6,
@@ -5641,13 +5641,13 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 210
+            "value": 200
           },
           "model2ndTally": {
             "value": 6
           },
           "Points": {
-            "value": 105
+            "value": 100
           },
           "Ursarax": {
             "max": 6,
@@ -7546,7 +7546,7 @@
             "value": 2
           },
           "S": {
-            "value": 8
+            "value": 9
           },
           "WS": {
             "value": 4
@@ -11664,7 +11664,7 @@
             "value": 1
           },
           "AP": {
-            "value": -2
+            "value": -3
           },
           "BS": {
             "value": 3
@@ -13847,7 +13847,8 @@
           "traits": [
             {
               "item": "Ability§Heavy"
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "keywords": {
@@ -13873,7 +13874,7 @@
             "value": 48
           },
           "S": {
-            "value": 14
+            "value": 16
           }
         }
       },
@@ -13941,7 +13942,7 @@
         "stats": {
           "A": {
             "statType": "term",
-            "value": "D6"
+            "value": "2D3"
           },
           "AP": {
             "value": -3
@@ -13982,7 +13983,7 @@
         "stats": {
           "A": {
             "statType": "term",
-            "value": "D6"
+            "value": "2D3"
           },
           "AP": {
             "value": -4
