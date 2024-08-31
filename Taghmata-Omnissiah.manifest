@@ -4290,7 +4290,7 @@
             "value": 20
           }
         },
-        "text": "Taghmata Omnissiah model only. Once per turn when an enemy unit within 18\" of the bearer's unit targets the bearer's unit, that enemy unit's ranged weapons have the [HAZARDOUS] ability."
+        "text": "Taghmata Omnissiah model only. Each time an enemy unit within 18\" of the bearer's unit targets the bearer's unit, that enemy unit's ranged weapons have the [HAZARDOUS] ability until the end of the phase."
       },
       "Enhancement§Cyber-familiar": {
         "keywords": {
