@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.2.3",
+  "revision": "1.2.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -368,7 +368,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the start or end of your Movement phase targeting one friendly non-Vehicle Taghmata Omnissiah unit within 6”. Until the start of your next Command phase that unit is eligible to declare a charge in a turn in which it Advanced."
+        "text": "You can use this ability at the start or end of your Movement phase targeting one friendly non-Vehicle Taghmata Omnissiah unit within 9”. Until the start of your next Command phase that unit is eligible to declare a charge in a turn in which it Advanced."
       },
       "Ability§Ephemera Custodia (cybertheurgic rite)": {
         "keywords": {
@@ -413,7 +413,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "You can use this ability at the start or end of your Movement phase targeting one friendly non-Vehicle Taghmata Omnissiah unit within 6”. Until the start of your next Command phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+        "text": "You can use this ability at the start or end of your Movement phase targeting one friendly non-Vehicle Taghmata Omnissiah unit within 12”. Until the start of your next Command phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
       },
       "Ability§Eyes of the Omnissiah": {
         "keywords": {
@@ -643,7 +643,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Ability§Reductor Techno-arcana": {
         "keywords": {
@@ -732,6 +732,14 @@
           ]
         },
         "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
+      },
+      "Ability§Super-heavy Platform": {
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "text": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
       },
       "Ability§Tank Hunter": {
         "keywords": {
@@ -1915,7 +1923,7 @@
             "Ability§Battlesmith",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n**Thallax Cohort\n\n**Ursarax Cohort\n\n**Arlatax Battle-automata Maniple\n\n**This model cannot be attached to a Thallax Cohort, Ursarax Cohort or Arlatax Battle-automata Maniple unless it is equipped with an incunabulan jet pack."
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n**Thallax Cohort\n\n**Ursarax Cohort\n\n**Arlatax Battle-automata Maniple\n\nWhile attached to a Castellax Battle-automata Maniple, Domitar Battle-automata Maniple or Arlatax Battle-automata Maniple unit, this model loses the Infantry keyword.\n\n**This model cannot be attached to a Thallax Cohort, Ursarax Cohort or Arlatax Battle-automata Maniple unless it is equipped with an incunabulan jet pack."
             },
             "Ability§Pride of Place",
             "Ability§Optimal Efficiency",
@@ -2420,7 +2428,7 @@
             "Ability§Battlesmith",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\n"
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\nWhile attached to a Castellax Battle-automata Maniple or Domitar Battle-automata Maniple unit, this model loses the Infantry keyword."
             },
             "Ability§Pride of Place",
             "Ranged Weapon§Calleb Decima Invictus—Master-crafted bolt pistol",
@@ -2765,7 +2773,7 @@
             },
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host"
+              "text": "This model can be attached to the following units:\n\n*Servo-automata Maniple\n\n*Castellax Battle-automata Maniple\n\n*Scyllax Guardian-automata Maniple\n\n*Myrmidon Secutor Host\n\n*Domitar Battle-automata Maniple\n\n*Vorax Battle-automata Maniple\n\n*Myrmidon Destructor Host\n\nWhile attached to a Castellax Battle-automata Maniple or Domitar Battle-automata Maniple unit, this model loses the Infantry keyword."
             },
             "Ability§Masters of Technology",
             "Ability§Battlesmith",
