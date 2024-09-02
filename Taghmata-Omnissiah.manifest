@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.2.4",
+  "revision": "1.2.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -4373,7 +4373,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 35
           }
         },
         "text": "Taghmata Omnissiah model only. Models in the bearer’s unit have the Deep Strike ability."
@@ -4386,10 +4386,10 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
-        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP. Once per turn, during your opponent’s Charge phase, just after an enemy unit declares a charge targeting the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to 3\" (it cannot embark within a Transport at the end of this move)."
+        "text": "Taghmata Omnissiah model only. At the end of your Command phase, if the bearer’s unit is not within Engagement Range of any enemy units, roll one D6: on a 4+, you gain 1CP."
       },
       "Enhancement§Manos Ruinus": {
         "assets": {
@@ -14919,11 +14919,9 @@
           ]
         },
         "stats": {
-          "Command Cost": {
-            "value": 2
-          }
+          "Command Cost": {}
         },
-        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah Automata** unit from your army.\n\n**EFFECT**: Until the end of the phase, your unit has the Fights First ability."
+        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One **Taghmata Omnissiah Automata** unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
       },
       "Stratagem§Magister Theurgica": {
         "keywords": {
@@ -15182,7 +15180,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: End of your Shooting phase.\n\n**TARGET**: One terrain feature on the battlefield.\n\n**EFFECT**: Until the end of the battle, that terrain feature is demolished. While a terrain feature is demolished, models cannot have the Benefit of Cover because of that terrain feature. In addition, Roll one D6 for every unit in that terrain feature: on a 4+ the unit being rolled for suffers D3 mortal wounds."
+        "text": "**WHEN**: End of your Shooting phase.\n\n**TARGET**: One terrain feature on the battlefield.\n\n**EFFECT**: Until the end of the battle, that terrain feature is demolished. While a terrain feature is demolished, models cannot have the Benefit of Cover because of that terrain feature. In addition, Roll one D6 for every enemy unit in that terrain feature: on a 4+ the unit being rolled for suffers D3 mortal wounds."
       },
       "Stratagem§Sanguine Hook": {
         "keywords": {
@@ -15403,7 +15401,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent’s Command phase.\n\n**TARGET**: One objective marker.\n\n**EFFECT**: That objective marker is under bombardment. While an objective marker is under bombardment, at the end of every turn every unit within 3” of that objective marker suffers D3 mortal wounds. Afterwards, roll one D6: on a 4+ that objective marker is no longer under bombardment."
+        "text": "**WHEN**: Your opponent’s Command phase.\n\n**TARGET**: One objective marker.\n\n**EFFECT**: That objective marker is under bombardment. While an objective marker is under bombardment, at the end of every turn every unit within 3” of that objective marker suffers D3 mortal wounds. Afterwards, roll one D6: on a 5+ that objective marker is no longer under bombardment."
       },
       "Stratagem§Weapons of the Dark Age": {
         "keywords": {
