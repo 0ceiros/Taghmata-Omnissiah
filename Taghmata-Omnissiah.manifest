@@ -1,6 +1,6 @@
 {
   "name": "Taghmata Omnissiah",
-  "revision": "1.2.5",
+  "revision": "1.2.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -192,7 +192,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "In your Command phase, you can select one friendly Taghmata Omnissiah unit within 6\" of this model. Until the start of your next Command phase, weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
       },
       "Ability§Battlesmith": {
         "keywords": {
@@ -536,7 +536,7 @@
             "Taghmata Omnissiah"
           ]
         },
-        "text": "While this model is leading a unit, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
+        "text": "At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this model and roll one D6: on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Ability§Masters of Technology": {
         "keywords": {
@@ -1762,7 +1762,9 @@
             "Ranged Weapon§Archmagos Anacharis Scoria—Archaeotech pistol",
             "Ranged Weapon§Archmagos Anacharis Scoria—Photon thruster",
             "Melee Weapon§Archmagos Anacharis Scoria—Vodian Sceptre",
-            "Melee Weapon§Archmagos Anacharis Scoria—Machinator array"
+            "Melee Weapon§Archmagos Anacharis Scoria—Machinator array",
+            "Ranged Weapon§Anacharis Scoria—Flamer",
+            "Ranged Weapon§Anacharis Scoria—Meltagun"
           ]
         },
         "keywords": {
@@ -1895,7 +1897,7 @@
             "value": 3
           },
           "Points": {
-            "value": 310
+            "value": 315
           },
           "Sv": {
             "value": 2
@@ -2239,7 +2241,7 @@
             "value": 1
           },
           "Points": {
-            "value": 200
+            "value": 195
           },
           "Special Options": {
             "dynamic": true,
@@ -2301,7 +2303,7 @@
             "value": 7
           },
           "W": {
-            "value": 6
+            "value": 7
           }
         }
       },
@@ -2436,7 +2438,9 @@
             "Melee Weapon§Calleb Decima Invictus—Omnissian axe",
             "Melee Weapon§Calleb Decima Invictus—Machinator array",
             "Ability§Master of Destruction",
-            "Ability§Battlefield Analysis"
+            "Ability§Battlefield Analysis",
+            "Ranged Weapon§Calleb Decima Invictus—Flamer",
+            "Ranged Weapon§Calleb Decima Invictus—Meltagun"
           ]
         },
         "keywords": {
@@ -2570,7 +2574,7 @@
             "value": 1
           },
           "Points": {
-            "value": 220
+            "value": 215
           },
           "Sv": {
             "value": 3
@@ -2606,7 +2610,9 @@
             "Melee Weapon§Archmagos Draykavac—Machinator array",
             "Melee Weapon§Archmagos Draykavac—Paragon blade",
             "Ability§Stataraga High Techno-arcana",
-            "Ability§Djinn-skein"
+            "Ability§Djinn-skein",
+            "Ranged Weapon§Draykavac—Flamer",
+            "Ranged Weapon§Draykavac—Meltagun"
           ]
         },
         "keywords": {
@@ -2739,7 +2745,7 @@
             "value": 1
           },
           "Points": {
-            "value": 215
+            "value": 210
           },
           "Sv": {
             "value": 2
@@ -4502,7 +4508,7 @@
             "value": 15
           }
         },
-        "text": "Taghmata Omnissiah model only. Select one of the bearer's ranged weapons that doesn’t have the [TORRENT] ability, improve the Strength and Armour Penetration characteristics of that weapon by 1. In addition, each time an attack is made with that weapon, for every enemy model that was destroyed by that attack, roll one D6: on a 4+, that model’s unit suffers 1 mortal wound. Models destroyed as a result of those mortal wounds also count as being destroyed by that attack."
+        "text": "Taghmata Omnissiah model only. During the Declare Battle Formations step, select one of the bearer's ranged weapons that doesn’t have the [TORRENT] ability: improve the Strength and Armour Penetration characteristics of that weapon by 1. In addition, each time an enemy model is destroyed an attack made by that weapon, roll one D6: on a 4+, that model’s unit suffers 1 mortal wound. Models destroyed as a result of those mortal wounds also count as being destroyed by an attack made by that weapon."
       },
       "Enhancement§Paragon of Metal Retainer": {
         "keywords": {
@@ -4567,7 +4573,7 @@
             "value": 20
           }
         },
-        "text": "Taghmata Omnissiah model only.\n• Add 3 to the bearer’s Wounds characteristic.\n• At the end of every Fight phase in which the bearer’s unit was selected to fight, improve the Strength and Attacks characteristics of the bearer’s melee weapons by 2 until the end of the battle."
+        "text": "Taghmata Omnissiah model only.\n• Add 3 to the bearer’s Wounds characteristic.\n• At the end of every Fight phase in which the bearer’s unit was selected to fight, improve the Attacks characteristic of the bearer’s melee weapons by 2 until the end of the battle."
       },
       "Enhancement§Scindex-malagrus": {
         "keywords": {
@@ -6394,7 +6400,7 @@
       },
       "Melee Weapon§Calleb Decima Invictus—Omnissian axe": {
         "aspects": {
-          "Label": "Omnissian axe"
+          "Label": "Master-crafted omnissian axe"
         },
         "keywords": {
           "Keywords": [
@@ -6406,7 +6412,7 @@
             "value": 4
           },
           "AP": {
-            "value": -2
+            "value": -3
           },
           "D": {
             "value": 2
@@ -9172,6 +9178,92 @@
           }
         }
       },
+      "Ranged Weapon§Anacharis Scoria—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Ignores Cover"
+            },
+            {
+              "item": "Ability§Torrent"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{v}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Anacharis Scoria—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
       "Ranged Weapon§Archmagos Anacharis Scoria—Archaeotech pistol": {
         "aspects": {
           "Label": "Archaeotech pistol"
@@ -10314,6 +10406,49 @@
           }
         }
       },
+      "Ranged Weapon§Calleb Decima Invictus—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Ignores Cover"
+            },
+            {
+              "item": "Ability§Torrent"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{v}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
       "Ranged Weapon§Calleb Decima Invictus—Master-crafted bolt pistol": {
         "aspects": {
           "Label": "Master-crafted bolt pistol"
@@ -10348,6 +10483,49 @@
           },
           "S": {
             "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Calleb Decima Invictus—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
           }
         }
       },
@@ -10779,6 +10957,92 @@
           }
         }
       },
+      "Ranged Weapon§Draykavac—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Ignores Cover"
+            },
+            {
+              "item": "Ability§Torrent"
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{v}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Draykavac—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Taghmata Omnissiah"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "statType": "term",
+            "value": "D6"
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
       "Ranged Weapon§Karacnos Assault Tank—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
@@ -10837,7 +11101,8 @@
                   "value": "3+"
                 }
               }
-            }
+            },
+            "Ability§Ignores Cover"
           ]
         },
         "keywords": {
@@ -15515,7 +15780,7 @@
             "value": 4
           },
           "Points": {
-            "value": 230
+            "value": 225
           },
           "Sv": {
             "value": 3
