@@ -15374,7 +15374,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound."
+        "text": "**WHEN**: Your Command phase.\n\n**EFFECT**: At the end of the turn all units on the battlefield suffer 1 mortal wound.\n\n**RESTRICTIONS**: This Stratagem can only be used if it has not been used in the previous battle round."
       },
       "Stratagem§Rhythm of Slaying": {
         "keywords": {
