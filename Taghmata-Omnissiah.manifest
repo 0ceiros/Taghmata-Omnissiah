@@ -4518,10 +4518,10 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
-        "text": "Taghmata Omnissiah model only. During the Declare Battle Formations step, select one Taghmata Omnissiah Automata unit from your army consisting of a single model. That unit gains the following effects until the end of the battle:\n• That unit cannot be joined by other Characters or targeted by [CYBERTHEURGIC RITE] abilities.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in that unit by 1 and add 2 to the Wounds characteristic of models in that unit.\n• Each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability."
+        "text": "Taghmata Omnissiah model only. During the Declare Battle Formations step, select one Taghmata Omnissiah Automata unit from your army consisting of a single model. That unit gains the following effects until the end of the battle:\n• That unit cannot be joined by other Characters or targeted by [CYBERTHEURGIC RITE] abilities.\n• Improve the Weapon Skill characteristic of melee weapons equipped by models in that unit by 1.\n• Each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability."
       },
       "Enhancement§Porta Fractis": {
         "keywords": {
@@ -8908,7 +8908,7 @@
             "value": 8
           },
           "M": {
-            "value": 5
+            "value": 4
           },
           "OC": {
             "value": 1
